@@ -1,3 +1,14 @@
+## Frontend Roadmap
+![roadmap](./img/roadmap.png)
+
+> 黄色：推荐
+
+> 灰色：尽可能学习
+
+> 橙色：任选其一
+
+## 详细介绍
+
 + **了解互联网/万维网**
 
 + **Learn HTML**
@@ -75,7 +86,7 @@
 
     这些工具能够帮助你构建和打包JavaScript应用。这部分知识还包含代码风格检测、任务管理器和打包。
 
-    对于任务管理器，以前有不同的选择，包括npm脚本,gulp,grunt等。但是现在，有了webpack帮你处理以前由gulp做的事，npm脚本用来自动化处理webpack胜任的任务（But at this time, since webpack lets you handle most of the stuff that we used to do with gulp, there is only npm scripts in the task runners now which you can use to automate the tasks that webpack might be capable of doing. ）。你没有必要学习gulp,但是你可以随时找时间了解一下，看看它能否帮助你开发应用。
+    对于任务管理器，以前有不同的选择，包括npm脚本,gulp,grunt等。但是现在，有了webpack帮你处理以前由gulp做的事，npm脚本用来自动化处理webpack胜任的任务。你没有必要学习gulp,但是你可以随时找时间了解一下，看看它能否帮助你开发应用。
 
     对于代码风格检测，同样的也有几个选择ESLint,JSLint,JSHint和JSCS,但是现在ESLint最流行。
     
