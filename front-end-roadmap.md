@@ -32,9 +32,10 @@
 + **练习：写一些响应式页面，同时用js添加一些交互**
 
 + **了解Web浏览器**
-    + 浏览器组成（从输入URL到页面加载的过程？）
-    + 浏览器存储（Cookie/Service Worker/loaclstorage）
-    + 浏览器开发者调试工具的使用   
+    + 浏览器组成（从输入URL到页面加载的过程？)
+    + 浏览器存储（Cookie/Service Worker/loaclstorage）
+    + 浏览器开发者调试工具的使用 
+
     
 + **统一资源定位器（URL）**
 
