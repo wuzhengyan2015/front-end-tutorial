@@ -101,7 +101,7 @@ sayMe() // Sleepy head
 console.log(me) // Zell
 ```
 
-另一方面，``let``属于块作用域。这意味着每当用``let``创建变量时，它只存在于它的块中。
+另一方面，``let``属于块级作用域。这意味着每当用``let``创建变量时，它只存在于它的块中。
 
 等等，什么是代码块？
 
@@ -125,7 +125,7 @@ function () {
 }
 ```
 
-块作用域的变量和函数作用域的变量差别是很大的。当你使用函数作用域的变量时，你可能不经意间重写了一个变量。来看这个例子：
+块级作用域的变量和函数作用域的变量差别是很大的。当你使用函数作用域的变量时，你可能不经意间重写了一个变量。来看这个例子：
 
 ```js
 var me = 'Zell'
@@ -174,7 +174,7 @@ for (var i = 1; i < 5; i++) {
 
 (顺便提下，这个被称为闭包。``setTimeout``执行的函数中并没有``i``变量，它从外层作用域读到了``i``值)
 
-好消息是，像上面的``for``循环中函数作用域的变量产生怪异行为并不会在使用``let``的时候发生。同样的延时输入的例子可以这样重写，而且它不用写额外的函数就可以输出预期的结果。
+好消息是，像上面的``for``循环中函数作用域的变量产生怪异行为并不会在使用``let``的时候发生。同样的延时打印的例子可以这样重写，而且它不用写额外的函数就可以输出预期的结果。
 
 ```js
 for (let i = 1; i < 5; i++) {
@@ -188,10 +188,81 @@ for (let i = 1; i < 5; i++) {
 ![right-loop](./images/loop-right.png)
 > ``i``被正确的打印了，1，2，3，4
 
-正如你所看到的，**块作用域**的变量让开发变得更简单，它消除由**函数作用域**变量带来的常见问题。为了使开发变得简单，我建议你从现在开始声明JavaScript变量时使用``let``代替``var``。（ES6已经是新的JavaScript了😎）。
+正如你所看到的，**块级作用域**的变量让开发变得更简单，它消除由**函数作用域**变量带来的常见问题。为了使开发变得简单，我建议你从现在开始声明JavaScript变量时使用``let``代替``var``。（ES6已经是新的JavaScript了😎）。
 
 现在我们已经知道了``let``的作用了，让我们继续往前，看下``let``和``const``的不同。
 
 #### LET VS CONST
 
-TO BE CONTINUE...
+``const``和``let``一样也是块级作用域变量。不同之处是``const``一旦声明了就不能重新赋值。
+
+```js
+const name = 'Zell'
+name = 'Sleepy head' // TypeError: Assignment to constant variable.
+
+let name1 = 'Zell'
+name1 = 'Sleepy head'
+console.log(name1) // 'Sleepy head'
+```
+
+因为``const``不能被重新赋值，所有它适合用来声明常量。
+
+假设在我的网站上有一个按钮用来触发一个弹窗。我确定这个按钮只会有一个，而且它不会改变。这个情况下，就可以使用``const``。
+
+```js
+const modalLauncher = document.querySelector('.jsModalLauncher')
+```
+
+当声明变量时，只要可以我总是喜欢使用``const``, 因为这样我能得到额外的提示--这个变量不会被重新赋值。
+
+接下来，我们继续讨论箭头函数。
+
+## 箭头函数
+
+箭头函数由箭头（=>）表示，在ES6代码中随处可见。它是匿名函数的简写方式。它们可以用在任何有关键字``function``的地方。例如：
+
+```js
+let array = [1,7,98,5,4,2]
+
+// ES5 way
+var moreThan20 = array.filter(function (num) {
+  return num > 20
+})
+
+// ES6 way
+let moreThan20 = array.filter(num => num > 20)
+```
+
+箭头函数相当酷。它们可以用来缩短代码，减少隐藏错误的空间。它们也能帮助你写出便于理解的代码，只要你熟悉了这个语法。
+
+让我们深入探讨箭头功能的细节，以便你学会识别和使用它们。
+
+#### 箭头函数的本质
+
+首先，让我们讨论下创建函数。在JavaScript中，你可能习惯用这种方式创建函数：
+
+```js
+function namedFunction() {
+  // Do something
+}
+
+// using the function
+namedFunction()
+```
+
+还有第二种创建函数的方式。你可以创建一个匿名函数，然后把它赋值给一个变量。为了创建匿名函数，我们去掉了函数声明的函数名称。
+
+```js
+var namedFunction = function() {
+  // Do something
+}
+```
+
+第三种创建函数的方式是把它直接当做另外一个函数或者方法的参数来创建。这第三个情况是匿名函数中最常见的。 这是一个例子：
+
+```js
+// Using an anonymous function in a callback
+button.addEventListener('click', function() {
+  // Do something
+})
+```
