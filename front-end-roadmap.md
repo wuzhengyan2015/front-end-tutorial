@@ -1,4 +1,4 @@
-## Frontend Roadmap
+# Frontend Roadmap
 ![roadmap](./img/roadmap.png)
 
 > 黄色：推荐
@@ -9,148 +9,156 @@
 
 ## 详细介绍
 
-+ **了解互联网/万维网**
+### 了解互联网/万维网
 
-+ **Learn HTML**
-    + 语义化HTML
-    + 页面分模块、正确的组织DOM
-    + 练习：制作至少5个页面，重点关注结构
+### 学习 HTML
 
-+ **Basics of CSS**
-    + 学习CSS基础
-    + Grid、Flexbox布局
-    + 媒体查询和响应式网站
-    + 练习：为之前制作的页面加上样式
++ 语义化HTML
++ 页面分模块、正确的组织DOM
++ 练习：制作至少5个页面，重点关注结构
 
-+ **Basics of Javascript**
-    + 学习语法和基本结构
-    + DOM API
-    + 了解一些概念：劫持、事件冒泡、原型等等
-    + XHR
-    + ES6新特性和模块化js
+### CSS 基础
+
++ 学习 CSS 基础
++ Grid、Flexbox 布局
++ 媒体查询和响应式网站
++ 练习：为之前制作的页面加上样式
+
+### JavaScript 基础
+
++ 学习语法和基本结构
++ DOM API
++ 了解一些概念：劫持、事件冒泡、原型等等
++ XHR
++ ES6新特性和模块化js
 
 + **练习：写一些响应式页面，同时用js添加一些交互**
 
-+ **了解Web浏览器**
-    + 浏览器组成（从输入URL到页面加载的过程？)
-    + 浏览器存储（Cookie/Service Worker/loaclstorage）
-    + 浏览器开发者调试工具的使用 
+### 了解 Web 浏览器
 
-    
-+ **统一资源定位器（URL）**
++ 浏览器组成（从输入URL到页面加载的过程？)
++ 浏览器存储（Cookie/Service Worker/loaclstorage）
++ 浏览器开发者调试工具的使用
 
-+ **超文本传输协议（HTTP）**
-    + HTTP缓存
-    + HTTP常用状态码
-    + HTTP报文组成
-    + 了解HTTP2.0
 
-+ **CSS 预处理器**
-    + **Sass** 
-    + **PostCSS**
-    + Less
-    + Stylus
+### 统一资源定位器（URL)
 
-    CSS预处理器使CSS更加强大，Sass,Less,Stylus,推荐Sass. 但是，PostCSS很受关注，它非常好，你可以单独使用也可以和Sass一起使用它。建议现学Sass，有时间再去学习PostCSS
+### 超文本传输协议（HTTP）
 
-+ **CSS 框架**
-    + **Bootstrap**
-    + Materialize CSS
-    + Bulma
++ HTTP缓存
++ HTTP常用状态码
++ HTTP报文组成
++ 了解HTTP2.0
 
-+ **前端代码规范**
-    + html规范
-    + css规范
-        + BEM
-        + OOCSSS, SMACSS, SUITCSS, Atomic
-    + js规范
-        + ESlint
+### CSS 预处理器
 
-    随着应用的增长，CSS开始变得混乱并且难以维护。有很多方式可以帮你更好的管理CSS，并且使其更具有扩展性。例如有OOCSS,SMACSS,SUITCSS,Atomic和BEM。你应该去了解一下他们的差异，推荐BEM。
++ **Sass**
++ **PostCSS**
++ Less
++ Stylus
 
-    对于代码风格检测，同样的也有几个选择ESLint,JSLint,JSHint和JSCS,但是现在ESLint最流行。
+Sass、Less 还有 Stylus 这类 CSS 预处理器使 CSS 更加强大，推荐大家学习 Sass。但是，PostCSS 很受关注，它非常好，既可以单独使用也可以搭配 Sass 一起使用。建议先学 Sass，有时间再去学习 PostCSS。
 
-+ **了解Web动画**
+### CSS 框架
 
-+ **了解Web字体、图标、图像**
++ **Bootstrap**
++ Materialize CSS
++ Bulma
 
-+ Github（optional）
-    + Github上找些项目：demo页面实现响应式或者优化设计；找出js代码中还能优化的地方，能你所学到的最佳实践来重构它；尝试解决一些open issue
-    + **git知识**
+### 前端代码规范
 
-+ **包管理**
-    + NPM
-    + Yarn
++ html规范
++ css规范
+    + BEM
+    + OOCSSS, SMACSS, SUITCSS, Atomic
++ js规范
+    + ESlint
 
+随着应用的增长，CSS 开始变得混乱并且难以维护。有很多方式可以帮你更好地管理 CSS，并且让它的扩展性更强。例如有OOCSS、SMACSS、SUITCSS、Atomic和BEM。你应该去了解一下他们的差异，推荐 BEM。
+
+对于代码风格检测，也有一些选择：ESLint、JSLint、JSHint 和 JSCS，但是现在 ESLint 最流行。
+
+### 了解Web动画
+
+### 了解Web字体、图标、图像
+
+### Github
+
++ Github 上找些项目，为它们的 demo 页面实现响应式，或者优化设计；找出 js 代码中还能优化的地方，运用你所学到的最佳实践来重构它；尝试解决一些 open issue。
++ Git 知识
+
+### 包管理
+
++ NPM
++ Yarn
 + 练习：在你的应用中下载一些库来使用
 
-+ **构建工具**
-    + **NPM Scripts**
-    + Gulp
-    + **Webpack** (for apps)
-    + Rollup (for libraries)
-    + Parcel
+### 构建工具
 
-    这些工具能够帮助你构建和打包JavaScript应用。这部分知识还包含代码风格检测、任务管理器和打包。
++ **NPM Scripts**
++ Gulp
++ **Webpack** (用来构建应用)
++ Rollup (用来构建库)
++ Parcel
++ 练习：尝试用 Sass 和 ES6 写一个库，发布到 Github 和 npm 上
 
-    对于任务管理器，以前有不同的选择，包括npm脚本,gulp,grunt等。但是现在，有了webpack帮你处理以前由gulp做的事，npm脚本用来自动化处理webpack胜任的任务。你没有必要学习gulp,但是你可以随时找时间了解一下，看看它能否帮助你开发应用。
-    
-    对于模块打包，也有几个不同选择，包括Parcel,Webpack,Rollup,Browserify等。如果你非得选择一个，闭上眼直接选Webpack。Rollup也很常用，但是建议构建第三方库的时候使用; 当涉及到应用的打包，用webpack。所以，现在就去学习webpack吧，愿意的话有空再去看看Rollup.
+这些工具能够帮助你构建和打包 JavaScript 应用。这部分知识还包含代码风格检测、任务管理器和打包。
 
-+ 练习：尝试用Sass和ES6写一个库，发布到Github和npm上
-    
-+ **js框架学习**
-    + **React**
-    + Vue
-    + Angular
+在以前，任务管理器有很多种选择，包括 npm 脚本、gulp、grunt 等。但是现在，Webpack 就能帮你处理以前由 gulp 做的事，npm 脚本用来自动化处理 Webpack 胜任的任务。你没有必要学习 gulp，但是你可以随时找时间了解一下，看看它能否帮助你开发应用。
 
+对于模块打包，也有几个不同选择，包括 Parcel、Webpack、Rollup、Browserify 等。如果你非得选择一个，闭上眼直接选 Webpack。Rollup 也很常用，但是建议构建第三方库的时候使用; 当涉及到应用的打包时，就用 Webpack。所以，现在就开始学习 Webpack 吧，愿意的话等有空再去看看 Rollup。
+
+
+### js 框架学习
+
++ **React**
++ Vue
++ Angular
 + 练习：用框架写一个应用
 
-+ **网站性能优化**
-    + 桌面浏览器前端优化策略
-        + 网络加载类
-        + 页面渲染类
-    + 移动端浏览器前端优化策略
-        + 网络加载类
-        + 缓存类
-        + 图片类
-        + 脚本类
-        + 渲染类
-        + 架构协议类
+### 网站性能优化
 
-+ **测试**
-    + Jest
-    + Mocha
-    + Protractor
-    + Karma
-    + Enzyme
++ 桌面浏览器前端优化策略
+    + 网络加载类
+    + 页面渲染类
++ 移动端浏览器前端优化策略
+    + 网络加载类
+    + 缓存类
+    + 图片类
+    + 脚本类
+    + 渲染类
+    + 架构协议类
 
-+ 渐进式应用
-    + 了解service workers和如何实现一个渐进式应用
-    
-+ 静态检查
-    + TypeScript
-    + Flow
+### 测试
 
-    静态类型检查器可以帮助您将类型检查添加到JavaScript。你可以不用学习这些东西，但是静态检查能给你带来超能力，可以花几个小时学习，然后记住。主要由TypeScript和Flow，选一个你喜欢的，推荐TypeScript.
++ Jest
++ Mocha
++ Protractor
++ Karma
++ Enzyme
 
-+ **服务端渲染**
-    + React - Next.js & After.js
-    + Vue - Nuxt.js
+### 渐进式应用（PWA）
 
-    直到现在，你所掌握的技能应该足以让你获得任何“前端工程师”的职位，但是不要局限于此！无论你选用了什么框架，了解一下服务端渲染。取决于你使用了什么框架，有着不同的选择。例如，你决定使用React，最值得留意的就是Next.js和After.js，如果是Vue.js，相应的有Nuxt.js。路线图中可能还有些缺失的地方，但这就是你成为“前端工程师”所需要的全部内容。记住关键是要进可能多的练习。在刚开始的时候会显得有些恐怖，你会觉得自己没有掌握到只是，但是这是正常的，随着时间的推移，你会变得越来越好。如果你遇到困难了，不要忘了去寻求帮助，你会为很多人都愿意帮助你而感到惊讶...
-      
-+ **Web安全基础**
-    + XSS
-    + CSRF
-    + HTTP/DNS劫持
-    + 跨域
++ 了解 service workers 和如何实现一个渐进式应用
 
-+ **其他**
-    + Canvas
-    + HTML5 API
-    + SVG
-    + sourcemaps
-    + 函数式编程
+### 静态类型检查器
 
++ TypeScript
++ Flow
 
+静态类型检查器可以给 JavaScript 增加类型检查功能。这些不是必需学习的内容，但是静态类型检查能给你带来强大的能力，只要花几个小时学习，然后你就能上手了。TypeScript 和 Flow 是目前的主流选择，选一个你喜欢的，推荐 TypeScript。
+
+### 服务端渲染
+
++ React - Next.js & After.js
++ Vue - Nuxt.js
+
+直到现在，你所掌握的技能应该足以让你获得任何“前端工程师”的职位，但是不要局限于此！无论你选用了什么框架，了解一下服务端渲染。取决于你使用了什么框架，服务端渲染技术也有着不同的选择。例如，你用的是 React，最值得留意的就是 Next.js 和 After.js，如果是 Vue.js，相应的有 Nuxt.js。路线图中可能还有些缺失的地方，但这就是你成为“前端工程师”所需要的全部内容。记住关键是要尽可能多的练习。
+
+### 其他
+
++ Canvas
++ HTML5 API
++ SVG
++ sourcemaps
++ 函数式编程
