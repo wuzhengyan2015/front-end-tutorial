@@ -58,14 +58,17 @@
     + Materialize CSS
     + Bulma
 
-+ CSS 体系架构
-    + **BEM**
-    + OOCSSS
-    + SMACSS
-    + SUITCSS
-    + Atomic
++ **前端代码规范**
+    + html规范
+    + css规范
+        + BEM
+        + OOCSSS, SMACSS, SUITCSS, Atomic
+    + js规范
+        + ESlint
 
     随着应用的增长，CSS开始变得混乱并且难以维护。有很多方式可以帮你更好的管理CSS，并且使其更具有扩展性。例如有OOCSS,SMACSS,SUITCSS,Atomic和BEM。你应该去了解一下他们的差异，推荐BEM。
+
+    对于代码风格检测，同样的也有几个选择ESLint,JSLint,JSHint和JSCS,但是现在ESLint最流行。
 
 + **了解Web动画**
 
@@ -84,7 +87,6 @@
 + **构建工具**
     + **NPM Scripts**
     + Gulp
-    + **EsLint**
     + **Webpack** (for apps)
     + Rollup (for libraries)
     + Parcel
@@ -92,8 +94,6 @@
     这些工具能够帮助你构建和打包JavaScript应用。这部分知识还包含代码风格检测、任务管理器和打包。
 
     对于任务管理器，以前有不同的选择，包括npm脚本,gulp,grunt等。但是现在，有了webpack帮你处理以前由gulp做的事，npm脚本用来自动化处理webpack胜任的任务。你没有必要学习gulp,但是你可以随时找时间了解一下，看看它能否帮助你开发应用。
-
-    对于代码风格检测，同样的也有几个选择ESLint,JSLint,JSHint和JSCS,但是现在ESLint最流行。
     
     对于模块打包，也有几个不同选择，包括Parcel,Webpack,Rollup,Browserify等。如果你非得选择一个，闭上眼直接选Webpack。Rollup也很常用，但是建议构建第三方库的时候使用; 当涉及到应用的打包，用webpack。所以，现在就去学习webpack吧，愿意的话有空再去看看Rollup.
 
