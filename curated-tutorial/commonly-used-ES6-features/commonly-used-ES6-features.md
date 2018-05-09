@@ -258,7 +258,7 @@ var namedFunction = function() {
 }
 ```
 
-第三种创建函数的方式是把它直接当做另外一个函数或者方法的参数来创建。这第三个情况是匿名函数中最常见的。 这是一个例子：
+第三种创建函数的方式是把它直接当做另外一个函数或者方法的参数来创建。这种是匿名函数中最常见的。 这是一个例子：
 
 ```js
 // Using an anonymous function in a callback
@@ -266,3 +266,34 @@ button.addEventListener('click', function() {
   // Do something
 })
 ```
+
+因为ES6箭头函数是匿名函数的简写，所以你可以在任何地方用箭头函数替换匿名函数。
+
+就像这样：
+
+```js
+// Normal Function
+const namedFunction = function (arg1, arg2) { /* do your stuff */}
+
+// Arrow Function
+const namedFunction2 = (arg1, arg2) => {/* do your stuff */}
+
+// Normal function in a callback
+button.addEventListener('click', function () {
+  // Do something
+})
+
+// Arrow function in a callback
+button.addEventListener('click', () => {
+  // Do something
+})
+```
+
+是不是看上去差不多？基本上你只要移除``function``然后在稍微不同的地方用``=>``替换。
+
+但是箭头函数有什么不一样的地方呢？难道我们只是用``=>``替换``function``?
+
+实际上，我们不只是用``=>``替换``function``。一个箭头函数的语法可以根据以下两个因素而变化:  
+  1. 需要的**参数个数**
+  2. 您是否想要**隐式返回**。
+
