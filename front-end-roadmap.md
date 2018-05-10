@@ -22,7 +22,8 @@
 + 学习 CSS 基础
 + Grid、Flexbox 布局
 + 媒体查询和响应式网站
-+ 练习：为之前制作的页面加上样式
++ CSS 预处理器：Sass、PostCSS、Less、Stylus
++ CSS 框架：Bootstrap、Materialize CSS、Bulma
 
 ### JavaScript 基础
 
@@ -40,7 +41,6 @@
 + 浏览器存储（Cookie/Service Worker/loaclstorage）
 + 浏览器开发者调试工具的使用
 
-
 ### 统一资源定位器（URL)
 
 ### 超文本传输协议（HTTP）
@@ -49,21 +49,6 @@
 + HTTP常用状态码
 + HTTP报文组成
 + 了解HTTP2.0
-
-### CSS 预处理器
-
-+ **Sass**
-+ **PostCSS**
-+ Less
-+ Stylus
-
-Sass、Less 还有 Stylus 这类 CSS 预处理器使 CSS 更加强大，推荐大家学习 Sass。但是，PostCSS 很受关注，它非常好，既可以单独使用也可以搭配 Sass 一起使用。建议先学 Sass，有时间再去学习 PostCSS。
-
-### CSS 框架
-
-+ **Bootstrap**
-+ Materialize CSS
-+ Bulma
 
 ### 前端代码规范
 
@@ -81,6 +66,8 @@ Sass、Less 还有 Stylus 这类 CSS 预处理器使 CSS 更加强大，推荐�
 ### 了解Web动画
 
 ### 了解Web字体、图标、图像
+
+### 数据结构和算法基础
 
 ### Github
 
@@ -137,23 +124,12 @@ Sass、Less 还有 Stylus 这类 CSS 预处理器使 CSS 更加强大，推荐�
 + Karma
 + Enzyme
 
-### 渐进式应用（PWA）
-
-+ 了解 service workers 和如何实现一个渐进式应用
-
 ### 静态类型检查器
 
 + TypeScript
 + Flow
 
 静态类型检查器可以给 JavaScript 增加类型检查功能。这些不是必需学习的内容，但是静态类型检查能给你带来强大的能力，只要花几个小时学习，然后你就能上手了。TypeScript 和 Flow 是目前的主流选择，选一个你喜欢的，推荐 TypeScript。
-
-### 服务端渲染
-
-+ React - Next.js & After.js
-+ Vue - Nuxt.js
-
-直到现在，你所掌握的技能应该足以让你获得任何“前端工程师”的职位，但是不要局限于此！无论你选用了什么框架，了解一下服务端渲染。取决于你使用了什么框架，服务端渲染技术也有着不同的选择。例如，你用的是 React，最值得留意的就是 Next.js 和 After.js，如果是 Vue.js，相应的有 Nuxt.js。路线图中可能还有些缺失的地方，但这就是你成为“前端工程师”所需要的全部内容。记住关键是要尽可能多的练习。
 
 ### 其他
 
@@ -162,3 +138,7 @@ Sass、Less 还有 Stylus 这类 CSS 预处理器使 CSS 更加强大，推荐�
 + SVG
 + sourcemaps
 + 函数式编程
++ 渐进式应用（PWA）：了解 service workers 和如何实现一个渐进式应用
++ 服务端渲染
+    + React - Next.js & After.js
+    + Vue - Nuxt.js
