@@ -293,7 +293,115 @@ button.addEventListener('click', () => {
 
 但是箭头函数有什么不一样的地方呢？难道我们只是用``=>``替换``function``?
 
-实际上，我们不只是用``=>``替换``function``。一个箭头函数的语法可以根据以下两个因素而变化:  
+实际上，我们不是仅仅用``=>``替换``function``。一个箭头函数的语法可以根据以下两个因素而变化:  
   1. 需要的**参数个数**
-  2. 您是否想要**隐式返回**。
+  2. 是否想要**隐式返回**。
+
+第一个因素是传给箭头函数的参数个数。如果只有一个参数，你可以省略参数部分的括号。如果不需要参数，你可以用下划线（``_``）来代替括号（``()``）。
+
+下面的箭头函数都是有效的：
+```js
+const zeroArgs = () => {/* do something */}
+const zeroWithUnderscore = _ => {/* do something */}
+const oneArg = arg1 => {/* do something */}
+const oneArgWithParenthesis = (arg1) => {/* do something */}
+const manyArgs = (arg1, arg2) => {/* do something */}
+```
+
+箭头函数语法的第二个因素是你是否需要隐式返回。如果函数主体就一行代码，而且没包裹在花括号中，箭头函数会自动用``return``把这行代码结果返回。
+
+所以，下面两个是一样的。
+```js
+const sum1 = (num1, num2) => num1 + num2
+const sum2 = (num1, num2) => { return num1 + num2 }
+```
+
+这两个因素就是你可以写出更简短的代码的原因，就像之前上边写到的``moreThan20``
+
+```js
+let array = [1,7,98,5,4,2]
+
+// ES5 way
+var moreThan20 = array.filter(function (num) {
+  return num > 20
+})
+
+// ES6 way
+let moreThan20 = array.filter(num => num > 20)
+```
+
+综上所述，箭头函数相当酷。它只要花一点时间习惯下，所以多尝试下，你会很快地在各个地方使用到它。
+
+但是在你喜欢上箭头函数之前，我会向你介绍下箭头函数另外一个可以会让你困惑的特性--关键字``this``。
+
+#### 关键字 THIS
+
+``this``是唯一一个值会根据它的调用方式而变化的关键字。在浏览器中，当它在任何函数之外调用时，``this``默认指向``Window``。
+
+```js
+console.log(this) // Window
+```
+
+![image](./images/window.png)
+> 浏览器中``this``默认指向``window``对象
+
+当``this``在一个普通的函数中被调用时， 它会指向全局对象。在浏览器中，``this``就是指向``Window``。
+
+```js
+function hello () {
+  console.log(this)
+}
+
+hello() // Window
+```
+
+在普通函数调用中，JavaScript总是把``this``指向window对象。这页解释了为什么``setTimeout``执行的函数中``this``总是指向``Window``。
+
+当``this``在对象方法中被调用到，``this``就会指向对象本身：
+
+```js
+let o = {
+  sayThis: function() {
+    console.log(this)
+  }
+}
+
+o.sayThis() // o
+```
+
+![image](./images/object.png)
+> ``this``会指向调用方法的那个对象
+
+当函数以**构造函数**的形式调用时，``this``指向**新构建的对象**。
+
+```js
+function Person (age) {
+  this.age = age
+}
+
+let greg = new Person(22)
+let thomas = new Person(24)
+
+console.log(greg) // this.age = 22
+console.log(thomas) // this.age = 24
+```
+
+![image](./images/constructor.png)
+> 使用``new``或者``Object.craete()``创建对象时，``this``指向新创建的对象
+
+``this``使用在事件监听函数中的时候，它会指向触发事件的元素
+
+```js
+let button = document.querySelector('button')
+
+button.addEventListener('click', function() {
+  console.log(this) // button
+})
+```
+
+正如你看到的上述所有情况，``this``的值在函数调用时指定。每个函数都定义它自己的``this``值。
+
+在箭头函数中，无论函数是怎么调用的，``this``不会绑定到一个新的值。``this``总是指向代码所处环境的``this``值。
+
+
 
