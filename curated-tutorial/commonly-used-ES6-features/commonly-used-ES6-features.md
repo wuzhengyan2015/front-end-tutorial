@@ -332,9 +332,9 @@ let moreThan20 = array.filter(num => num > 20)
 
 综上所述，箭头函数相当酷。它只要花一点时间习惯下，所以多尝试下，你会很快地在各个地方使用到它。
 
-但是在你喜欢上箭头函数之前，我会向你介绍下箭头函数另外一个可以会让你困惑的特性--关键字``this``。
+但是在你喜欢上箭头函数之前，我会向你介绍下箭头函数另外一个可以会让你困惑的特性--``lexical this``。
 
-#### 关键字 THIS
+#### The LEXICAL THIS
 
 ``this``是唯一一个值会根据它的调用方式而变化的关键字。在浏览器中，当它在任何函数之外调用时，``this``默认指向``Window``。
 
@@ -401,7 +401,169 @@ button.addEventListener('click', function() {
 
 正如你看到的上述所有情况，``this``的值在函数调用时指定。每个函数都定义它自己的``this``值。
 
-在箭头函数中，无论函数是怎么调用的，``this``不会绑定到一个新的值。``this``总是指向代码所处环境的``this``值。
+在箭头函数中，无论函数是怎么调用的，``this``不会绑定到一个新的值。``this``总是指向代码所处环境的``this``值。（顺便提一下，``lexical`` 在 ``lexical scope``中也出现，``lexical scope``指词法作用域，也可以说是静态作用域，我想这就是``lexical this``的由来， 静态分析时就确定下来了，而不是动态的）
 
+好的，这边可以会有些疑惑，让我们看一些实例。
 
+首先，你永远不要用箭头函数来定义对象的方法，因为这样方法中的``this``值就不在指向你的对象了。
 
+```js
+let o = {
+  // Don't do this
+  notThis: () => {
+    console.log(this) // Window
+    this.objectThis() // Uncaught TypeError: this.objectThis is not a function
+  },
+  // Do this
+  objectThis: function () {
+    console.log(this) // o
+  }
+  // Or this, which is a new shorthand
+  objectThis2 () {
+    console.log(this) // o
+  }
+}
+```
+
+第二，你*可能不会*像用箭头函数来创建事件监听函数，因为这样函数中的``this``指就不会再指向监听的元素了。
+
+然而，你总是可以通过``event.currentTarget``来获取到正确的``this``值。这也是我说可能不会的原因。
+
+```js
+button.addEventListener('click', function () {
+  console.log(this) // button
+})
+
+button.addEventListener('click', e => {
+  console.log(this) // Window
+  console.log(event.currentTarget) // button
+})
+```
+
+第三，在``this``值在你不期望的情况下发生改变的地方，你可能也会使用``lexical this``。例子就是延时函数，使用箭头函数后你就``that``或者``self``来保存``this``。
+
+```js
+let o = {
+  // Old way
+  oldDoSthAfterThree: function () {
+    let that = this
+    setTimeout(function () {
+      console.log(this) // Window
+      console.log(that) // o
+    })
+  },
+  // Arrow function way
+  doSthAfterThree: function () {
+    setTimeout(() => {
+      console.log(this) // o
+    }, 3000)
+  }
+}
+```
+
+如果你需要在一段时间之后添加或删除一个类，这个用例下箭头函数尤其有用:
+
+```js
+let o = {
+  button: document.querySelector('button')
+  endAnimation: function () {
+    this.button.classList.add('is-closing')
+    setTimeout(() => {
+      this.button.classList.remove('is-closing')
+      this.button.classList.remove('is-open')
+    }, 3000)
+  }
+}
+```
+
+最后，在箭头函数可以让你代码更整洁的地方尽管使用它，就像上面提过的``moreThan20``
+
+```js
+let array = [1,7,98,5,4,2]
+let moreThan20 = array.filter(num => num > 20)
+```
+
+让我们继续。
+
+## 默认参数
+
+默认参数在ES6中@#$%^&*()_+...，好吧，就是当我们定义函数时，允许我们指定参数默认值。让我们看个例子，你就知道它真的很有用。
+
+```js
+function announcePlayer (firstName, lastName, teamName) {
+  console.log(firstName + ' ' + lastName + ', ' + teamName)
+}
+
+announcePlayer('Stephen', 'Curry', 'Golden State Warriors')
+// Stephen Curry, Golden State Warriors
+```
+
+第一眼看上去，代码没有问题。但是如果我们要声明一个和任何球队都无关的球员呢？
+
+如果我们不传``teamName``，当前代码就有点尴尬了。
+
+```js
+announcePlayer('Zell', 'Liew')
+// Zell Liew, undefined
+```
+
+我确定undefined不是一个球队 😉。
+
+如果球员是自由球员，把他声明为``Zell Liew, unaffiliated``比``Zell Liew, undefined``会更清晰些，是吧？
+
+为了让``announcePlayer``能输出``Zell Liew, unaffiliated``，一种方法是把``unaffiliated``字符串作为``teamName``传入函数。
+
+ES5中，我们可以这样重构下代码：
+
+```js
+function announcePlayer (firstName, lastName, teamName) {
+  if (!teamName) {
+    teamName = 'unaffiliated'
+  }
+  console.log(firstName + ' ' + lastName + ', ' + teamName)
+}
+
+announcePlayer('Zell', 'Liew')
+// Zell Liew, unaffiliated
+
+announcePlayer('Stephen', 'Curry', 'Golden State Warriors')
+// Stephen Curry, Golden State Warriors
+```
+
+或者，如果你对三元运算符比较熟悉，你可以选择一个精简的版本：
+
+```js
+function announcePlayer (firstName, lastName, teamName) {
+  var team = teamName ? teamName : 'unaffiliated'
+  console.log(firstName + ' ' + lastName + ', ' + team)
+}
+```
+
+在ES6中，当我们定义参数的时候，我们可以添加等号``=``来设置默认参数。如果我们设置了默认参数，在没传入参数的情况下ES6会自动赋值默认参数。
+
+所以，在下面的代码中，当``teamName``为``undefiend``的时候，它会默认设置成``unaffiliated``:
+
+```js
+const announcePlayer = (firstName, lastName, teamName = 'unaffiliated') => {
+  console.log(firstName + ' ' + lastName + ', ' + teamName)
+}
+
+announcePlayer('Zell', 'Liew')
+// Zell Liew, unaffiliated
+
+announcePlayer('Stephen', 'Curry', 'Golden State Warriors')
+// Stephen Curry, Golden State Warriors
+```
+
+相当酷，不是吗？:)
+
+还有一点。如果你想调用默认值，你可以手动传入``undefined``。当你的需要的默认值不是最后一个参数时，手动传入``undefined``可以帮到你。
+
+```js
+announcePlayer('Zell', 'Liew', undefined)
+// Zell Liew, unaffiliated
+```
+
+这就是你需要了解的默认参数。 这很简单，非常有用:)
+
+## Destructuring
