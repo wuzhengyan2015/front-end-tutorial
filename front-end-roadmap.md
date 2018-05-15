@@ -25,7 +25,7 @@
 + CSS 预处理器：Sass、PostCSS、Less、Stylus
 + CSS 框架：Bootstrap、Materialize CSS、Bulma
 
-### JavaScript 基础
+### [JavaScript 基础](curated-tutorial/basic-javascript.md)
 
 + 学习语法和基本对象
 + DOM和BOM
