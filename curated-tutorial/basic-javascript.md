@@ -82,6 +82,7 @@
 
 ##### 编程风格:
 
+* [The Non-Secret Formula for Writing Better Code](https://hackernoon.com/the-non-secret-formula-for-writing-better-code-e41d1ff38682)
 * [Airbnb JavaScript Style Guide](http://airbnb.io/javascript/)
 * [JavaScript Standard Style](http://standardjs.com/rules.html)
 * [JavaScript Semi-Standard Style](https://github.com/Flet/semistandard)
