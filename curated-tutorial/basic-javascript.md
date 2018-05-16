@@ -21,6 +21,7 @@
 中文：
 * [你不知道的 JS - 中文版(翻译不全，可以结合英文版一起看)](https://github.com/kangbin/You-Dont-Know-JS)
 * [this 的值到底是什么？一次说清楚](https://zhuanlan.zhihu.com/p/23804247) [read]
+* [深入理解javascript原型和闭包（完结）](https://www.cnblogs.com/wangfupeng1988/p/3977924.html) [read]
 
 英文：
 * [你不知道的 JS](https://github.com/getify/You-Dont-Know-JS/) [read]
