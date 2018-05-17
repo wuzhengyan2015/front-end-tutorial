@@ -19,7 +19,7 @@
 #### 阶段学习
 
 中文：
-* [JavaScript精简的阶段学习](../translation/brief-javascript-roadmap/brief-javascript-roadmap.md)
+* [JavaScript阶段性学习](../translation/brief-javascript-roadmap/brief-javascript-roadmap.md)
 
 ##### 综合学习:
 
