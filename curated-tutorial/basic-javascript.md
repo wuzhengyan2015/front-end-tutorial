@@ -16,6 +16,11 @@
 * [JavaScript 启示](http://www.javascriptenlightenment.com/) [read]
 * [动人的 JavaScript](http://eloquentjavascript.net/) [read]
 
+#### 阶段学习
+
+中文：
+* [JavaScript精简的阶段学习](../translation/brief-javascript-roadmap/brief-javascript-roadmap.md)
+
 ##### 综合学习:
 
 中文：
