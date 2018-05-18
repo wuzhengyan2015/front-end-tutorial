@@ -11,7 +11,7 @@
 
 ### 了解互联网/万维网
 
-### 学习 HTML
+### [HTML 基础](curated-tutorial/basic-html.md)
 
 + 语义化HTML
 + 页面分模块、正确的组织DOM
