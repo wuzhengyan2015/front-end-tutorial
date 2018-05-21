@@ -571,3 +571,71 @@ announcePlayer('Zell', 'Liew', undefined)
 解构是一种能**便捷地从数组和对象中取值的方式**。数组解构和对象解构存在一些细微的差别，所以让我们分别讨论它们。
 
 #### 对象解构
+
+首先你有下面这个对象：
+
+```js
+const Zell = {
+  firstName: 'Zell',
+  lastName: 'Liew'
+}
+```
+
+为了获取到``firstName``和``lastName``的值，你要创建两个变量，然后一个个赋值，像这样：
+
+```js
+let firstName = Zell.firstName // Zell
+let lastName = Zell.lastName // Liew
+```
+
+用上解构的话，你可以用一行代码创建并赋值这些变量。下面展示如何结构对象：
+
+```js
+let { firstName, lastName } = Zell
+
+console.log(firstName) // Zell
+console.log(lastName) // Liew
+```
+
+看到了没？声明变量时通过添加``花括号``（``{}``），我们告诉JavaScript创建前述的变量，然后把``Zell.firstName``赋值给``firstName``，把``Zell.lastName``赋值给``lastName``。
+
+这就是底层所做的事：
+
+```js
+// What you write
+let { firstName, lastName } = Zell
+
+// ES6 does this automatically
+let firstName = Zell.firstName
+let lastName = Zell.lastName
+```
+
+现在，如果一个变量名已经被使用了，我们不能再次声明（尤其当你使用``let``或者``const``的时候）。
+
+下面赋值将会失败：
+
+```js
+let name = 'Zell Liew'
+let course = {
+  name: 'JS Fundamentals for Frontend Developers'
+  // ... other properties
+}
+
+let { name } = course // Uncaught SyntaxError: Identifier 'name' has already been declared
+```
+
+如果你碰到了上述情况，你可以使用**带分号（``:``）的解构来重命名变量**
+
+在下面这个例子中， 我创建了一个变量``courseName``并把``course.name``的值赋值给了它。
+
+```js
+let { name: courseName } = course
+
+console.log(courseName) // JS Fundamentals for Frontend Developers
+
+// What ES6 does under the hood:
+let courseName = course.name
+```
+
+还要提到一点。
+

@@ -11,17 +11,18 @@
 
 ### 了解互联网/万维网
 
-### 学习 HTML
+### [HTML 基础](curated-tutorial/basic-html.md)
 
 + 语义化HTML
 + 页面分模块、正确的组织DOM
 + 练习：制作至少5个页面，重点关注结构
 
-### CSS 基础
+### [CSS 基础](curated-tutorial/basic-css.md)
 
 + 学习 CSS 基础
 + Grid、Flexbox 布局
 + 媒体查询和响应式网站
++ CSS 规范
 + CSS 预处理器：Sass、PostCSS、Less、Stylus
 + CSS 框架：Bootstrap、Materialize CSS、Bulma
 
