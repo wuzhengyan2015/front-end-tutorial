@@ -133,4 +133,67 @@ else
 
 ### 第三阶段
 
+这个阶段的重点是**不断地打代码，构建东西**
+
+在不断的构建东西的过程中，把下面几点包含进去：
+
+1. 面向对象编程(OOP)
+2. 函数式编程思想(FP)
+3. AJAX
+4. JavaScript最佳实践
+
+面向对象编程和函数式编程在JavaScript中都很流行。为了更好的学习JavaScript，你两者都需要知道。
+
+OOP是围绕对象来编程的，你需要知道一些概念:
+
+1. [this in JavaScript](https://zellwk.com/blog/this/?ck_subscriber_id=207848717)
+2. [JavaScript prototypes](https://yehudakatz.com/2011/08/12/understanding-prototypes-in-javascript/?ck_subscriber_id=207848717)
+3. [The Module](https://addyosmani.com/resources/essentialjsdesignpatterns/book/?ck_subscriber_id=207848717#modulepatternjavascript) and [Factory](https://addyosmani.com/resources/essentialjsdesignpatterns/book/?ck_subscriber_id=207848717#factorypatternjavascript) patterns for creating objects
+
+函数式编程主要是围绕函数来编程，你需要知道下面几点：
+
+1. [Reduce side effects](https://davidwalsh.name/preventing-sideeffects-javascript?ck_subscriber_id=207848717)
+2. [Write pure functions](https://alistapart.com/article/making-your-javascript-pure?ck_subscriber_id=207848717)
+3. [Write immutable code](https://slemgrim.com/mutate-or-not-to-mutate/?ck_subscriber_id=207848717)
+
+关于AJAX下面一些文章还不错:
+
+1. [Using Fetch](https://css-tricks.com/using-fetch/?ck_subscriber_id=207848717)
+2. [JavaScript Promises](https://zellwk.com/blog/js-promises/?ck_subscriber_id=207848717)
+3. Reading APIs
+
+自测问题
+
+1. OOP
+    1. ``this``在不同的上下文中是如何变化的？有多少种上下文情况？
+    2. 什么是原型？
+    3. 怎么创建对象？
+    4. 什么是模块化？怎么使用？
+    5. 什么是工厂模式？ 怎么使用？
+
+2. FP
+    1. 什么是持久化不可变数据？
+    2. 数组的什么方法是不可变的？
+    3. 什么是纯函数？
+    4. 函数有多少种调用方式？
+    5. 什么是副作用？
+    6. 写纯函数时怎么处理副作用？
+
+3. AJAX
+    1. 什么是Promise
+    2. 怎么串联Promise
+    3. 使用Promise时怎么捕获错误？
+    4. 怎么使用``Fetch``API？
+    5. 什么是CRUD ?
+    6. 怎么使用Github的API获取自己仓库列表?
+
+4. 最佳实践
+    1. 为什么要避免使用全局变量 ?
+    2. 什么要使用 === 代替 == ?
+    3. 怎么使用三元操作符写出更精简的代码？
+    4. 怎么使用ES6写出精简的代码？
+    5. 什么是事件捕获和事件冒泡？
+    6. 什么是事件代理？
+    7. 怎么移除事件监听？什么时候移除？
+
 ### 第四阶段
