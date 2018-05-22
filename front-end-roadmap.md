@@ -15,7 +15,6 @@
 
 + 语义化HTML
 + 页面分模块、正确的组织DOM
-+ 练习：制作至少5个页面，重点关注结构
 
 ### [CSS 基础](curated-tutorial/basic-css.md)
 
@@ -36,37 +35,51 @@
 
 ### 了解 Web 浏览器
 
-+ 浏览器组成（从输入URL到页面加载的过程？)
-+ 浏览器存储（Cookie/Service Worker/loaclstorage）
-+ 浏览器开发者调试工具的使用
++ 浏览器组成
++ 浏览器渲染页面的过程（从输入URL到页面加载的过程？)
++ 浏览器存储（Cookie/Service Worker/localstorage）
++ 浏览器开发者调试工具（F12）的使用
++ 浏览器兼容
 
 ### 统一资源定位器（URL)
+
++ URL的组成
++ 相对路径与绝对路径的区别
++ url编码
 
 ### 超文本传输协议（HTTP）
 
 + HTTP缓存
 + HTTP常用状态码
 + HTTP报文组成
++ HTTP与HTTPS的区别
 + 了解HTTP2.0
 
 ### 前端代码规范
 
-+ html规范
-+ css规范
-    + BEM
-    + OOCSSS, SMACSS, SUITCSS, Atomic
-+ js规范
-    + ESlint
-
-随着应用的增长，CSS 开始变得混乱并且难以维护。有很多方式可以帮你更好地管理 CSS，并且让它的扩展性更强。例如有OOCSS、SMACSS、SUITCSS、Atomic和BEM。你应该去了解一下他们的差异，推荐 BEM。
-
-对于代码风格检测，也有一些选择：ESLint、JSLint、JSHint 和 JSCS，但是现在 ESLint 最流行。
++ html规范（语义化 / ...）
++ css规范（BEM / OOCSSS / SMACSS / SUITCSS  / Atomic）
++ js规范（参考eslint）
 
 ### 了解Web动画
 
++ css动画（animation / transition）
++ js动画
++ canvas动画
++ svg动画
+
 ### 了解Web字体、图标、图像
 
++ 了解字体文件的引入
++ 了解字体图标（iconfont）
++ ？？？？
+
 ### 数据结构和算法基础
+
++ 了解堆、栈、队列、链表（单向链表 / 双向链表）、树（二叉树）
++ 了解常用的排序算法（快速排序 / 冒泡排序 / 插入排序 / ...）
++ 了解常用的查找算法（顺序查找 / 二分查找 / ..）
++ 了解一些高级算法（动态规划 / 贪心算法）
 
 ### Git
 
