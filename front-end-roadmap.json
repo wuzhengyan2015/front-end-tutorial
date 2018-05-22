@@ -1,0 +1,62 @@
+{
+    "Frontend Roadmap": {
+        "raw": "![roadmap](./img/roadmap.png)\n\n\n黄色：推荐\n\n灰色：尽可能学习\n\n橙色：任选其一\n\n",
+        "详细介绍": {
+            "了解互联网/万维网": {},
+            "[HTML 基础](curated-tutorial/basic-html.md)": {
+                "raw": "- 语义化HTML\n- 页面分模块、正确的组织DOM\n\n"
+            },
+            "[CSS 基础](curated-tutorial/basic-css.md)": {
+                "raw": "- 学习 CSS 基础\n- Grid、Flexbox 布局\n- 媒体查询和响应式网站\n- CSS 规范\n- CSS 预处理器：Sass、PostCSS、Less、Stylus\n- CSS 框架：Bootstrap、Materialize CSS、Bulma\n\n"
+            },
+            "[JavaScript 基础](curated-tutorial/basic-javascript.md)": {
+                "raw": "- 学习语法和基本对象\n- DOM和BOM\n- XHR\n- 了解一些概念：事件冒泡、事件委托、作用域、闭包、原型、劫持等等\n- ES6新特性和模块化js\n\n"
+            },
+            "了解 Web 浏览器": {
+                "raw": "- 浏览器组成\n- 浏览器渲染页面的过程（从输入URL到页面加载的过程？)\n- 浏览器存储（Cookie/Service Worker/localstorage）\n- 浏览器开发者调试工具（F12）的使用\n- 浏览器兼容\n\n"
+            },
+            "统一资源定位器（URL)": {
+                "raw": "- URL的组成\n- 相对路径与绝对路径的区别\n- url编码\n\n"
+            },
+            "超文本传输协议（HTTP）": {
+                "raw": "- HTTP缓存\n- HTTP常用状态码\n- HTTP报文组成\n- HTTP与HTTPS的区别\n- 了解HTTP2.0\n\n"
+            },
+            "前端代码规范": {
+                "raw": "- html规范（语义化 / ...）\n- css规范（BEM / OOCSSS / SMACSS / SUITCSS  / Atomic）\n- js规范（参考eslint）\n\n"
+            },
+            "了解Web动画": {
+                "raw": "- css动画（animation / transition）\n- js动画\n- canvas动画\n- svg动画\n\n"
+            },
+            "了解Web字体、图标、图像": {
+                "raw": "- 了解字体文件的引入\n- 了解字体图标（iconfont）\n- ？？？？\n\n"
+            },
+            "数据结构和算法基础": {
+                "raw": "- 了解堆、栈、队列、链表（单向链表 / 双向链表）、树（二叉树）\n- 了解常用的排序算法（快速排序 / 冒泡排序 / 插入排序 / ...）\n- 了解常用的查找算法（顺序查找 / 二分查找 / ..）\n- 了解一些高级算法（动态规划 / 贪心算法）\n\n"
+            },
+            "Git": {
+                "raw": "- Git 知识\n- Gerrit\n- Github\n\n"
+            },
+            "包管理": {
+                "raw": "- NPM\n- Yarn\n\n"
+            },
+            "构建工具": {
+                "raw": "- **NPM Scripts**\n- **Webpack** (用来构建应用)\n- Rollup (用来构建库)\n- Parcel\n- Gulp\n\n"
+            },
+            "js 框架学习": {
+                "raw": "- **React**\n- Vue\n- Angular\n\n"
+            },
+            "网站性能优化": {
+                "raw": "- Yahoo军规和Yslow\n- PC端优化\n- 移动端优化\n\n"
+            },
+            "测试": {
+                "raw": "- Jest\n- Mocha\n- Protractor\n- Karma\n- Enzyme\n\n"
+            },
+            "静态类型检查器": {
+                "raw": "- Flow\n- TypeScript\n\n"
+            },
+            "其他": {
+                "raw": "- Canvas\n- HTML5 API\n- SVG\n- sourcemaps\n- 函数式编程\n- 渐进式应用（PWA）和 Service Workers\n- 服务端渲染\n- React - Next.js & After.js\n- Vue - Nuxt.js\n\n\n"
+            }
+        }
+    }
+}
