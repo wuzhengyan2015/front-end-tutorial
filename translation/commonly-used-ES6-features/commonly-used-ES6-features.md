@@ -2,7 +2,7 @@
 
 **近年来，Javascript已经得到了很大的发展。如果你在2017年学习JavaScript，却还没有接触到ES6，那么你就错过了一种更容易阅读和编写JavaScript的方法。**
 
-如果你还不是JavaScript的高手，不用担心。因为你不需要非常精通JavaScript就可以利用ES6提供给你的额外优点。在这篇文章中，我想向你分享我日常开发中经常使用的8个ES6特性，以此帮助你更快的学会新语法。
+如果你还不是JavaScript的高手，不用担心。因为你不需要非常精通JavaScript就可以使用ES6中很棒的新特性。在这篇文章中，我想向你分享我日常开发中经常使用的8个ES6特性，以此帮助你更快的学会新语法。
 
 ## ES6特性列表
 首先，ES6是对JavaScript的一次巨大更新。如果你好奇有哪些新特性，这里有一个[新特性大列表](https://github.com/lukehoban/es6features)，感谢[Luke Hoban](https://twitter.com/lukehoban?lang=en)整理。
@@ -355,7 +355,7 @@ function hello () {
 hello() // Window
 ```
 
-在普通函数调用中，JavaScript总是把``this``指向window对象。这页解释了为什么``setTimeout``执行的函数中``this``总是指向``Window``。
+在普通函数调用中，JavaScript总是把``this``指向window对象。这也解释了为什么``setTimeout``执行的函数中``this``总是指向``Window``。
 
 当``this``在对象方法中被调用到，``this``就会指向对象本身：
 
@@ -588,7 +588,7 @@ let firstName = Zell.firstName // Zell
 let lastName = Zell.lastName // Liew
 ```
 
-用上解构的话，你可以用一行代码创建并赋值这些变量。下面展示如何结构对象：
+用上解构的话，你可以用一行代码创建并赋值这些变量。下面展示如何解构对象：
 
 ```js
 let { firstName, lastName } = Zell
@@ -763,7 +763,7 @@ console.log(b) // 2
 
 解构最棒的地方就是你可以在任何地方使用它。正如字面意思，你甚至可以在函数中使用解构对象和数组。
 
-假设我们有一个函数接受一个数组，里面存着分数，然后返回一个前三分数的对象。这个函数类似我们解构数组时所作的。
+假设我们有一个函数接受一个数组，里面存着成绩分数，然后返回一个前三分数的对象。这个函数类似我们解构数组时所作的。
 
 ```js
 // 注: 你不需要箭头函数就能使用其他ES6特性。
@@ -838,7 +838,7 @@ sayMyName({firstName: 'Vincy', lastName: 'Zhang'}) // Vincy Zhang
 sum(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) // 55
 ```
 
-在ES5中，当我们不知道函数参数个数时，我们依靠``arguments``变量来处理。``arguments``变量是类数组的，也有点像``Symbol``。
+在ES5中，当我们不知道函数参数个数时，我们依靠``arguments``变量来处理。``arguments``变量是类数组的``Symbol``。
 
 ```js
 function sum () {
@@ -1001,7 +1001,7 @@ const Zell = {
 }
 ```
 
-很整齐，呃？ 现在，我们写的文字少了，我们都快乐地回家了。
+很整齐，呃？ 现在，我们写的文字少了，我们都可以快乐地回家了。
 
 ![dancing](./images/dancing.gif)
 > Wheeeee! Happy! :)
@@ -1010,7 +1010,7 @@ const Zell = {
 
 #### 方法简写
 
-方法是与属性关联的函数。 他们只是因为它们的功能而被特意命名:)
+方法是与对象属性关联的函数。 他们只是因为它们的功能而被特意命名:)
 
 这是一个方法的例子：
 
@@ -1134,7 +1134,7 @@ who could change night into day`
 ![multiline](./images/multiline.png)
 > 多行字符串正常工作
 
-一个窍门是使用这些字符串在JavaScript中创建HTML元素，如果需要的话。（注：这可以不是最好的创建方式，但是仍然把一个个创建好）
+一个窍门是使用模板字符串在JavaScript中创建HTML元素，如果需要的话。（注：这可以不是最好的创建方式，但是仍然把一个个创建好）
 
 ```js
 const container = document.createElement('div')
