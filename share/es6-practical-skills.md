@@ -181,6 +181,20 @@ var a = 'Hi, I\'m ' + fName + ' ' + sName + ', I\'m ' + age + ' and work as a ' 
 var b = `Hi, I'm ${ fName } ${ sName }, I'm ${ age } and work as a ${ job }.`;
 ```
 
+### Set
+
++ 去重
+```js
+const arr1 = [1, 2, 3]
+const arr2 = [2, 3, 4]
+Array.from(new Set([...arr1, ...arr2]]))
+```
+
++ 增量更新
+```js
+
+```
+
 ### Promise
 
 ### Async/Await (ES8)
