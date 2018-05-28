@@ -1,6 +1,7 @@
 ### Let and const
 
 + 块级作用域
+
 ```js
 for (let i = 1; i < 5; i++) {
   setTimeout(function () {
@@ -8,6 +9,11 @@ for (let i = 1; i < 5; i++) {
   }, 1000)
 };
 ```
+
++ 块级作用域好处
+  + 不在需要立即执行的函数表达式(IIFE)
+  + 循环体中的闭包不再有问题
+  + 防止重复声明变量
 
 ### 箭头函数和lexical this
 
@@ -33,7 +39,6 @@ add(1) // Error: Missing parameter.
 
 + 表达式
 ```js
-function foo( a ) { return a * 4; }
 function bar( x = 2, y = x + 4, z = foo(x)) {
     console.log([ x, y, z ]);
 }
@@ -61,36 +66,6 @@ function initialize(options) {
     var models = options.models || {};
     var reducers = options.reducers || {};
     var actors = options.actors || {};
-}
-```
-
-### Array.prototype.reduce
-
-+ 数组求和
-```js
-var total = [ 0, 1, 2, 3 ].reduce(( sum, value ) => sum + value, 0)
-```
-
-+ 扁平化数组
-```js
-var flattened = [[0, 1], [2, 3], [4, 5]].reduce(
-  ( accumulator, value ) => accumulator.concat(value),
-  []
-)
-```
-
-+ compose
-```js
-export default function compose(...funcs) {
-  if (funcs.length === 0) {
-    return arg => arg
-  }
-
-  if (funcs.length === 1) {
-    return funcs[0]
-  }
-
-  return funcs.reduce((a, b) => (...args) => a(b(...args)))
 }
 ```
 
@@ -122,6 +97,21 @@ function foo(...args) {
     // 继续传递的话 func(...args)
 } 
 foo( 'car', 54, 'tree')
+```
+
++ compose
+```js
+export default function compose(...funcs) {
+  if (funcs.length === 0) {
+    return arg => arg
+  }
+
+  if (funcs.length === 1) {
+    return funcs[0]
+  }
+
+  return funcs.reduce((a, b) => (...args) => a(b(...args)))
+}
 ```
 
 ### 对象的扩展运算符(ES2018)
@@ -190,12 +180,8 @@ const arr2 = [2, 3, 4]
 Array.from(new Set([...arr1, ...arr2]]))
 ```
 
-+ 增量更新
-```js
-
-```
-
 ### Promise
++ 原理：初始``pending``状态，``resolve()``后状态成``fulfilled``，``reject()``后状态成``rejected``
 
 ### Async/Await (ES8)
 ```js
@@ -204,6 +190,10 @@ const [user, account] = await Promise.all([
   fetch('/account')
 ])
 ```
+### Class
++ Class在语法上更加贴合面向对象的写法
++ Class实现继承更加易读，易理解，对初学者更加友好
++ 本质还是语法糖，使用prototype
 
 ### 新方法
 
@@ -223,3 +213,5 @@ let copy = Object.assign({}, o1, o2)
 + Number.isNaN() and Number.isFinite()
 
 + Math.sign() 
+
++ Array.fill()
