@@ -31,12 +31,6 @@
 + 了解一些概念：事件冒泡、事件委托、作用域、闭包、原型、劫持等等
 + ES6新特性和模块化js
 
-### 前端代码规范
-
-+ html规范（语义化 / ...）
-+ css规范（BEM / OOCSSS / SMACSS / SUITCSS  / Atomic）
-+ js规范（参考eslint）
-
 ### js 框架学习
 
 + **React**
