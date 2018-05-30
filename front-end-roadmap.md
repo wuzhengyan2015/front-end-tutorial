@@ -23,19 +23,26 @@
 + CSS 预处理器：Sass、PostCSS、Less、Stylus
 + CSS 框架：Bootstrap、Materialize CSS、Bulma
 
-### [JavaScript 基础](curated-tutorial/basic-javascript.md)
+### JavaScript
 
-+ 学习语法和基本对象
-+ DOM和BOM
-+ XHR
-+ 了解一些概念：事件冒泡、事件委托、作用域、闭包、原型、劫持等等
-+ ES6新特性和模块化js
+#### [基础](curated-tutorial/basic-javascript.md)
 
-### js 框架学习
++ 核心、DOM、BOM
++ AJAX XHR
++ 概念：事件冒泡、事件委托、作用域、闭包、原型、劫持
++ [ES6十大特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
++ 代码规范、代码风格
++ 框架的使用：**React**、Vue、Angular
 
-+ **React**
-+ Vue
-+ Angular
+#### 进阶
+
++ JS设计模式
++ JS模块化规范
++ 理解框架的设计原理和实现
++ 单元测试
+
+#### 拓展
+
 
 ### Git
 
