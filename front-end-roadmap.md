@@ -1,7 +1,7 @@
 # Frontend Roadmap
-![roadmap](./img/roadmap.png)
+![roadmap](./img/roadmap-2.png)
 
-> 黄色：推荐
+> 黄色：推荐学习，尽量掌握
 
 > 灰色：尽可能学习
 
