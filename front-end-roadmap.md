@@ -1,14 +1,3 @@
-# Frontend Roadmap
-![roadmap](./img/roadmap-2.png)
-
-> 黄色：推荐学习，尽量掌握
-
-> 灰色：尽可能学习
-
-> 橙色：任选其一
-
-## 详细介绍
-
 ### HTML
 
 #### [ 基础](curated-tutorial/basic-html.md)
@@ -101,7 +90,21 @@
 + 浏览器存储（Cookie/Service Worker/localstorage）
 + 浏览器组成
 + 浏览器渲染页面的过程（从输入URL到页面加载的过程？)
-    
++ 浏览器调试工具的使用
+
+#### Web 安全
+
++ XSS
++ CSRF
++ SQL注入
++ HTTP / DNS 劫持
++ 跨域问题处理
+
+#### 数据结构、算法与设计模式
++ 基本的数据结构（堆 / 栈 / 链表 / 树 /....）
++ 常用的算法（快排 / ...）
++ 常用的设计模式（工厂 / 策略 / 观察者 / ...）
+
 #### 超文本传输协议（HTTP）
 
 + HTTP缓存
@@ -116,4 +119,3 @@
 
 + sourcemaps
 + 动画实现的6种方案
-
