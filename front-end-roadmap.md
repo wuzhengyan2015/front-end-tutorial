@@ -13,6 +13,7 @@
 
 #### [ 基础](curated-tutorial/basic-html.md)
 
++ 常用的标签与属性
 + 语义化HTML
 + 页面分模块、正确的组织
 
@@ -20,21 +21,24 @@
 
 #### [基础](curated-tutorial/basic-css.md)
 
-+ CSS属性、选择器基本知识的学习
++ CSS基础：引入方法、选择器、常用属性、动画
++ CSS页面布局
++ Grid和Flexbox布局
++ 基本的编码规范、命名规则
++ 图片优化：sprite、iconfont、base64、图片压缩
 + Bootstrap框架
-+ Grid、Flexbox 等基本布局
-+ 了解响应式的常用实现方式
-+ 基本的编码规范
 
 #### 进阶
 
-+ CSS 预处理器：Sass、PostCSS、Less、Stylus
-+ CSS 其他框架 Materialize CSS、Bulma
++ CSS预处理器：Sass、PostCSS、Less、Stylus
 + 浏览器兼容
++ 响应式布局
++ CSS其他框架：Materialize CSS、Bulma
++ CSS的组织方式（BEM / OOCSS / SMACSS / ...）
 
 #### 拓展
 
-+ CSS的组织方式（OOCSS / SMACSS / ...）
++ [一个div画图](https://a.singlediv.com/)
 
 ### JavaScript
 

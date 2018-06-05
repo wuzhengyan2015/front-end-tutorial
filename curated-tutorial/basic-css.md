@@ -4,6 +4,8 @@
 
 - [MDN CSS 指南](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/CSS%E5%9F%BA%E7%A1%80)
 
+- [CSS基础篇、绝对有你想要](https://www.cnblogs.com/suoning/p/5625582.html)
+
 ## CSS 布局
 
 - [常用布局教程](http://zh.learnlayout.com/)
@@ -20,13 +22,13 @@
 
 [组织 CSS 的方法](https://zhuanlan.zhihu.com/p/28085207)
 
+- BEM
 - OOCSS：面向对象的 CSS
 - SMACSS：可扩展和模块化结构的 CSS
 - Atomic CSS：原子 CSS
 - MCSS：多层 CSS
 - AMCSS：属性模块 CSS
 - FUN
-- BEM
 
 ## CSS 框架
 
