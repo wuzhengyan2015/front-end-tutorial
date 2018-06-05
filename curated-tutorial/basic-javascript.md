@@ -61,29 +61,10 @@
 * [JavaScript 中的函数式编程：如何使用函数技术改进 JavaScript 程序](https://www.amazon.com/Functional-Programming-JavaScript-functional-techniques/dp/1617292826/ref=sr_1_1?&_encoding=UTF8&tag=fronenddevejo-20&linkCode=ur2&linkId=dcc6b0cb7de57fa841f1b178d2d54b9d&camp=1789&creative=9325) [read]
 * [在 JavaScript 中对 FP 的适当指导](https://drboolean.gitbooks.io/mostly-adequate-guide/content/) [read]
 * [Frisby 教授介绍函数式 JavaScript 的 Composable](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript) [watch]
-* [JavaScript Allongé](https://leanpub.com/javascriptallongesix) [read][$]
-* [JavaScript 中的硬核函数编程](https://frontendmasters.com/courses/functional-javascript/) [watch][$]
-* [JavaScript 轻量级函数式编程](https://frontendmasters.com/courses/functional-js-lite/) [watch][$]
 
 ##### 参考/文档:
 
 * [MDN JavaScript 参考](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
-* [MSDN JavaScrip 参考](https://msdn.microsoft.com/en-us/library/yek4tbz0.aspx)
-
-##### 术语表/百科全书/行业术语:
-
-* [JavaScript 百科](http://www.crockford.com/javascript/encyclopedia/)
-* [JavaScript 词汇表](https://www.codecademy.com/articles/glossary-javascript)
-* [简化 JavaScript 术语](http://jargon.js.org/)
-
-##### 标准/规范:
-
-* [如何阅读 ECMAScript 规范](https://timothygu.me/es-howto/)
-* [2015 ECMAScript® 语言 规范](http://www.ecma-international.org/ecma-262/6.0/index.html)
-* [2016 ECMAScript® 语言 规范](https://www.ecma-international.org/ecma-262/7.0/index.html)
-* [2017 ECMAScript® 语言规范](http://www.ecma-international.org/ecma-262/8.0/index.html)
-* [2018 ECMAScript® 语言规范](https://tc39.github.io/ecma262/)
-* [ECMA262 的状态、过程、文档](https://github.com/tc39/ecma262)
 
 ##### 编程风格:
 
@@ -91,18 +72,6 @@
 * [Airbnb JavaScript Style Guide](http://airbnb.io/javascript/)
 * [JavaScript Standard Style](http://standardjs.com/rules.html)
 * [JavaScript Semi-Standard Style](https://github.com/Flet/semistandard)
-
-##### JavaScript 简报, 新闻媒体和播客::
-
-* [Echo JS](http://www.echojs.com/)
-* [ECMAScript Daily](https://ecmascript-daily.github.io/)
-* [ES.next News](http://esnextnews.com/)
-* [JavaScript Air](https://javascriptair.com/)
-* [JavaScript Jabber](https://devchat.tv/js-jabber/)
-* [JavaScript Kicks](http://javascriptkicks.com/)
-* [JavaScript Live](https://jslive.com/)
-* [JavaScript Weekly](http://javascriptweekly.com/)
-* [JavaScript.com](https://www.javascript.com/news)
 
 ##### JS Explorers:
 
