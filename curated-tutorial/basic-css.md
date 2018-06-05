@@ -1,94 +1,44 @@
-### HTML
-#### [ 基础](curated-tutorial/basic-html.md)
-+ 语义化HTML
-+ 页面分模块、正确的组织
+# CSS 基础
 
-### CSS
-#### [基础](curated-tutorial/basic-css.md)
-+ CSS属性、选择器基本知识的学习
-+ Bootstrap框架
-+ Grid、Flexbox 等基本布局
-+ 了解响应式的常用实现方式
-+ 基本的编码规范
+## 基础知识
 
-#### 进阶
+- [MDN CSS 指南](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/CSS%E5%9F%BA%E7%A1%80)
 
-+ CSS 预处理器：Sass、PostCSS、Less、Stylus
-+ CSS 其他框架 Materialize CSS、Bulma
-+ 浏览器兼容
+## CSS 布局
 
-#### 拓展
+- [常用布局教程](http://zh.learnlayout.com/)
 
-+ CSS的组织方式（OOCSS / SMACSS / ...）
+- [CSS Grid 入门](https://zhuanlan.zhihu.com/p/26757425)
 
-### JavaScript
+## CSS 处理器
 
-#### [基础](curated-tutorial/basic-javascript.md)
+- Sass：[Sass指南](https://sass-guidelin.es/zh/)
+- Less：[Less教程](https://less.bootcss.com/)
+- PostCSS：[PostCSS介绍](https://www.ibm.com/developerworks/cn/web/1604-postcss-css/index.html)
 
-+ 核心、DOM、BOM
-+ AJAX XHR
-+ 概念：事件冒泡、事件委托、作用域、闭包、原型、劫持
-+ [ES6十大特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
-+ 代码规范、代码风格
-+ 框架的使用：**React**、Vue、Angular
+## CSS 组织方式
 
-#### 进阶
+[组织 CSS 的方法](https://zhuanlan.zhihu.com/p/28085207)
 
-+ 全面学习ES6
-+ JS设计模式
-+ JS模块化规范
-+ 浏览器兼容
-+ 理解框架的设计原理和实现
-+ 数据结构和算法
-+ 单元测试
+- OOCSS：面向对象的 CSS
+- SMACSS：可扩展和模块化结构的 CSS
+- Atomic CSS：原子 CSS
+- MCSS：多层 CSS
+- AMCSS：属性模块 CSS
+- FUN
+- BEM
 
-#### 拓展
-+ PWA和Service Worker
-+ 服务端渲染
+## CSS 框架
 
-### 公共知识
-+ Git
-    + Git 知识
-    + Gerrit
-    + Github
+- [Bootstrap](https://v4.bootcss.com/docs/4.0/getting-started/introduction/)
+- Foundation
+- Material Design CSS
+- [Bulma](https://bulma.io/)
 
-+ 构建工具
-    + NPM Scripts
-    + Gulp
-    + Webpack (用来构建应用)
-    + Rollup (用来构建库)
-    + Parcel
-    
-+ 包管理工具
-    + NPM
-    + Yarn
-    
-+ 网站性能优化
-    + Yahoo军规和Yslow
-    + PC端优化
-    + 移动端优化
+## 推荐书籍
 
-+ Web 浏览器
-    + 浏览器开发者调试工具（F12）的使用
-    + 浏览器兼容
-    + 浏览器存储（Cookie/Service Worker/localstorage）
-    + 浏览器组成
-    + 浏览器渲染页面的过程（从输入URL到页面加载的过程？)
-    
-+ 超文本传输协议（HTTP）
-    + HTTP缓存
-    + HTTP常用状态码
-    + HTTP报文组成
-    + HTTP与HTTPS的区别
-    + 了解HTTP2.0
-
-### 其他
-
-+ Canvas
-+ HTML5 API
-+ SVG
-+ sourcemaps
-+ 函数式编程
-+ 动画实现的6种方案
-+ 渐进式应用（PWA）和 Service Workers
-+ 服务端渲染
+- 《CSS权威指南》（基础+手册）
+- 《精通CSS》（基础）
+- 《响应式Web设计：HTML5和CSS3实战》（进阶）
+- 《CSS揭秘》（进阶）
+- 《CSS世界》（进阶）
