@@ -1,6 +1,7 @@
 # JavaScript进阶
 
 ## JS高级特性
+* [JS高级技巧(简洁版)](https://juejin.im/post/5aeff683f265da0ba351f786)
 * [深入理解javascript原型和闭包（完结）](https://www.cnblogs.com/wangfupeng1988/p/3977924.html)
 * JavaScript语言精粹 [book]
 * 你不知道的JavaScript [book]
