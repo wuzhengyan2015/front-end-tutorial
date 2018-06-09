@@ -36,7 +36,7 @@
 + 代码风格规范
 + 框架的使用：React、Vue、Angular
 
-#### 进阶
+#### [进阶](curated-tutorial/advanced-javascript.md)
 
 + JS高级特性
 + JS设计模式
@@ -44,7 +44,7 @@
 + 理解框架的设计原理和实现
 + 单元测试
 
-#### 拓展
+#### [拓展](curated-tutorial/expanded-javascript.md)
 
 + 函数式编程
 + PWA和Service Worker
