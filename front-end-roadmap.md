@@ -15,12 +15,13 @@
 + 图片优化：sprite、iconfont、base64、图片压缩
 + 编码规范
 
-#### 进阶
+#### [进阶](curated-tutorial/advanced-css.md)
 
 + CSS处理器：Sass、PostCSS
 + 浏览器兼容
-+ 响应式布局
 + CSS的组织方式：BEM、OOCSS、SMACSS
++ 响应式布局
++ CSS框架
 
 #### 拓展
 
