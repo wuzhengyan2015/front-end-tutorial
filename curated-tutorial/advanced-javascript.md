@@ -1,8 +1,9 @@
 ## JavaScript进阶
 
 ### JS高级特性
-* [JS高级技巧(简洁版)](https://juejin.im/post/5aeff683f265da0ba351f786)
+* [深入浅出Javascript事件循环机制(上)](https://zhuanlan.zhihu.com/p/26229293)
 * [深入理解javascript原型和闭包（完结）](https://www.cnblogs.com/wangfupeng1988/p/3977924.html)
+* [异步编程那些事（深入）](https://zhuanlan.zhihu.com/p/28315360)
 
 ### JS设计模式
 * [设计模式六大原则](http://www.uml.org.cn/sjms/201211023.asp#1)
