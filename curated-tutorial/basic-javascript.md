@@ -5,6 +5,7 @@
 * [JavaScript教程-廖雪峰](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000)
 * [思维导图来学习Javascript基础知识](https://juejin.im/post/57eb187eda2f600060ead7d7)
 * [this 的值到底是什么？一次说清楚](https://zhuanlan.zhihu.com/p/23804247)
+* [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/#intro)
 
 ### AJAX XHR
 * [Ajax入门](https://juejin.im/post/587f8dbd570c3522011c0f59)
