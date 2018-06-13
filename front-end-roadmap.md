@@ -17,11 +17,12 @@
 
 #### [进阶](curated-tutorial/advanced-css.md)
 
-+ CSS处理器：Sass、PostCSS
++ CSS3新特性
++ CSS处理器：Sass/Less、PostCSS
++ CSS框架
++ 响应式布局
 + 浏览器兼容
 + CSS的组织方式：BEM、OOCSS、SMACSS
-+ 响应式布局
-+ CSS框架
 
 #### 拓展
 
@@ -98,8 +99,8 @@
 
 #### HTTP / HTTPS
 
-+ HTTP缓存
 + HTTP报文和常用状态码
++ HTTP缓存
 + HTTPS
 + HTTP2.0
 
@@ -117,3 +118,5 @@
 
 + sourcemap
 + 动画实现的6种方案
++ Canvas/WebGL/SVG
++ nodeJS
