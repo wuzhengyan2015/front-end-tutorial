@@ -1,26 +1,15 @@
 {
-  "name": "front-end-tutorial",
-  "version": "1.0.0",
-  "description": "font-end-tutorial",
-  "main": "gulpfile.js",
-  "dependencies": {},
-  "devDependencies": {
-    "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
-    "marked": "^0.4.0",
-    "md-2-json": "^1.0.5"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "predeploy": "yarn docs:build",
+    "deploy": "gh-pages -d docs/.vuepress/dist",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ileenhow/front-end-tutorial.git"
+  "devDependencies": {
+    "vuepress": "^0.10.0"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ileenhow/front-end-tutorial/issues"
+  "dependencies": {
+    "gh-pages": "^1.2.0"
   },
-  "homepage": "https://github.com/ileenhow/front-end-tutorial#readme"
+  "homepage": "https://hellohy.github.io/enduring-heart"
 }
