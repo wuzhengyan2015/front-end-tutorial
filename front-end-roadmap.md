@@ -14,7 +14,6 @@
 
 + CSS基础：引入方法、选择器、常用属性、动画 (一):star::star::star:
 + CSS页面布局：常用布局、Grid、Flexbox (一):star::star::star: 
-+ 编码规范 (一):star::star:
 
 #### [进阶](curated-tutorial/advanced-css.md)
 
@@ -27,7 +26,7 @@
 
 #### 拓展
 
-+ CSS的组织方式：BEM、OOCSS、SMACSS (三):star::star:
++ CSS的组织方式(三)：BEM(:star::star:)、SMACSS(:star::star:)、OOCSS(:star:)、Meta CSS(:star:)
 
 ### JavaScript
 
@@ -36,7 +35,6 @@
 + 核心、DOM、BOM (一):star::star::star:
 + AJAX XHR (一):star::star::star:
 + ES6常用特性 (一):star::star::star:
-+ 代码风格规范 (一):star::star:
 
 #### [进阶](curated-tutorial/advanced-javascript.md)
 
@@ -54,6 +52,11 @@
 + 服务端渲染 (三):star:
 
 ### 公共知识
+
+#### 编码风格规范
++ HTML (一):star::star::star:
++ CSS (一):star::star::star:
++ Javascript (一):star::star::star:
 
 #### Git
 
