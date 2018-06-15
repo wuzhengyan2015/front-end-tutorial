@@ -26,7 +26,7 @@
 
 #### 拓展
 
-+ CSS的组织方式：BEM、OOCSS、SMACSS (三):star::star:
++ CSS的组织方式(三)：BEM(:star::star:)、SMACSS(:star::star:)、OOCSS(:star:)、Meta CSS(:star:)
 
 ### JavaScript
 
