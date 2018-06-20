@@ -92,7 +92,7 @@
 + 浏览器组成 (二):star::star:
 + 浏览器渲染页面的过程（从输入URL到页面加载的过程) (二):star::star:
 
-#### Web [安全](web-security.md)
+#### [Web 安全](web-security.md)
 
 + 同源策略和跨域 (二):star::star:⭐️
 + XSS、CSRF、点击劫持 (二):star::star:
