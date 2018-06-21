@@ -8,7 +8,7 @@
 * [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/#intro)
 
 ### AJAX XHR
-* [Ajax入门](https://juejin.im/post/587f8dbd570c3522011c0f59)
+* [Ajax原理一篇就够了](https://juejin.im/post/5b1cebece51d4506ae71addf#heading-0)
 
 ### ES6常用特性
 * [前端开发者不得不知的ES6十大特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
