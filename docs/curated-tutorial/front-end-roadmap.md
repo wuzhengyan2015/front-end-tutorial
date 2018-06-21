@@ -76,16 +76,16 @@
     
 #### 包管理工具
 
-+ NPM (二):star::star::star:
-+ Yarn (二):star::star:
++ [NPM](http://javascript.ruanyifeng.com/nodejs/npm.html) (二):star::star::star:()
++ [Yarn](https://yarn.bootcss.com/) (二):star::star:
     
-#### 网站性能优化
+#### [网站性能优化](perf.md)
 
-+ Yahoo军规和Yslow (三):star::star:
++ [Yahoo军规](https://www.imooc.com/learn/50)和[Yslow](https://www.jianshu.com/p/f0b08bc47b66) (三):star::star:
 + PC端优化 (三):star::star:
 + 移动端优化 (三):star::star:
 
-#### Web 浏览器
+#### (Web 浏览器)[browser.md]
 
 + Chrome DevTools： 基础(一):star::star::star:、  进阶(二):star::star:
 + 浏览器存储：Cookie、localstorage、Service Worker (二):star::star:
@@ -110,7 +110,7 @@
 + HTTPS (三):star::star:
 + HTTP2.0 (三):star::star:
 
-#### UML
+#### [UML](uml.md)
 
 + 基础 类图、用例图、组件图 (二):star::star::star:
 + 进阶 (三):star::star:

@@ -1,18 +1,15 @@
 # Front-end-tutorial
 
-Front-end-tutorial 是一份为即将选择和已经选择前端作为职业的萌新们梳理的一份前端知识大纲
-
-## 学习路线图
-![roadmap](./img/roadmap-3.png)
-
-## 详细知识点
-[知识清单](front-end-roadmap.md)
+[Web前端基础学习路线]（https://wuzhengyan2015.github.io/front-end-tutorial/)
 
 ## 路线图的修改
 路线图用[Balsamiq](https://balsamiq.com/products/mockups/)绘制. 文件在 `/img/*.bmpr` . 需要修改的话, 打开 Balsamiq, 点击 **Project > Open Project**.	
 
 ## 运行
+采用vuepress构建
+
 yarn install
 
 yarn docs:dev // 开发
+
 yarn depoly //部署

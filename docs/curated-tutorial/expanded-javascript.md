@@ -1,4 +1,4 @@
-## JavaScript拓展
+## 06-JavaScript拓展
 
 ### 函数式编程
 * [函数式编程术语](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
