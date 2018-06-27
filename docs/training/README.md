@@ -133,11 +133,13 @@
     - [熟悉 CSS 字体](http://www.w3school.com.cn/css/css_font.asp)
     - [熟悉 CSS 轮廓](http://www.w3school.com.cn/css/css_outline.asp)
   - [熟悉浏览器前缀](http://book.51cto.com/art/201203/323008.htm)
+  - [熟悉CSS常用布局](https://segmentfault.com/a/1190000008789039#articleHeader1)
 
 ### 学习材料
 
 - [HTML 系列教程](http://www.w3school.com.cn/h.asp)
 - [CSS 系统教程](http://www.w3school.com.cn/css/index.asp)
+- [CSS 基础篇、绝对有你想要](https://www.cnblogs.com/suoning/p/5625582.html)
 
 ### 结果输出
 
@@ -215,6 +217,7 @@
 
 ### 学习材料
 
+- [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/#intro)
 - [Chrome 开发者工具](https://developers.google.com/web/tools/chrome-devtools/)
 
 ### 结果输出
@@ -223,7 +226,6 @@
 
 ### 扩展学习
 
-- [ES6 教程](http://es6.ruanyifeng.com/)
 - [正则表达式 30 分钟入门](https://deerchao.net/tutorials/regex/regex.htm)
 - [JS 内存泄露](http://www.ruanyifeng.com/blog/2017/04/memory-leak.html)
 - [JS 原型和闭包](http://www.cnblogs.com/wangfupeng1988/p/3977924.html)
@@ -242,6 +244,8 @@
 ### 技能点
 
 - [熟悉 Node/NPM 基础](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html?utm_source=tuicool&utm_medium=referral)
+- 熟悉 ES6 基础
+  - [ES6 常用的特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
 - 熟悉 React 
   - [熟悉 React JSX](http://www.runoob.com/react/react-jsx.html)
   - [熟悉 React 组件](http://www.runoob.com/react/react-components.html)
@@ -262,6 +266,7 @@
 
 ### 学习材料
 
+- [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
 - [React 手册](http://www.runoob.com/react/react-tutorial.html)
 - [React 入门](http://www.ruanyifeng.com/blog/2015/03/react)
 - [NPM 使用介绍](http://www.runoob.com/nodejs/nodejs-npm.html)

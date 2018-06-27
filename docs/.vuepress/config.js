@@ -32,7 +32,7 @@ module.exports = {
       },
       {
         text: "培训计划",
-        link: "/tarning/"
+        link: "/training/"
       }
       // {
       //   text: '关于',
@@ -82,7 +82,7 @@ module.exports = {
           children: [""]
         }
       ],
-      "/tarning/": [
+      "/training/": [
         {
           title: "培训计划",
           children: [""]
