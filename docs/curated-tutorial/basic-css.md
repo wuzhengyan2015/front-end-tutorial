@@ -18,12 +18,6 @@
 
 - [iconfont](http://www.iconfont.cn/)
 
-### CSS 编码规范
-
-- [声明顺序](https://www.cnblogs.com/MasterYao/p/5581274.html)
-
-- [编码规范](https://www.cnblogs.com/y-lin/p/5753302.html)
-
 ### 推荐书籍
 
 - 《CSS权威指南》
