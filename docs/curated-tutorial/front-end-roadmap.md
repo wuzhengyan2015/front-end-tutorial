@@ -55,7 +55,7 @@
 
 ### 公共知识
 
-#### 编码风格规范
+#### [编码风格规范](code-style.md)
 + HTML (一):star::star::star:
 + CSS (一):star::star::star:
 + Javascript (一):star::star::star:
