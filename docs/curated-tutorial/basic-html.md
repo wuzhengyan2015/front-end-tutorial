@@ -5,8 +5,6 @@
 * [HTML5 火狐文档](http://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5)
 
 ### 2.进阶篇
-* [HTML编码规范](https://www.cnblogs.com/xiaocaiyuxiaoniao/p/7839386.html)
-* [HTML语义化](https://www.jianshu.com/p/6bc1fc059b51)
 * [阮一峰-html教程](https://github.com/wangdoc/html-tutorial)
 
 ### 3.推荐书籍
