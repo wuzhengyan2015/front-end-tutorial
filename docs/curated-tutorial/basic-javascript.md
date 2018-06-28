@@ -13,10 +13,6 @@
 ### ES6常用特性
 * [前端开发者不得不知的ES6十大特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
 
-### 代码风格规范
-* [Web前端代码风格指南](https://dondevi.github.io/web-frontend-guide/style-guide/codestyle.html)
-* [JavaScript Standard Style](https://standardjs.com/rules.html) [en]
-
 ### 框架的使用
 
 #### React
