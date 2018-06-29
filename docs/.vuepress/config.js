@@ -52,6 +52,8 @@ module.exports = {
             "advanced-css",
             "advanced-javascript",
             "expanded-javascript",
+            "code-style",
+            "buildTool",
             "data-structures-and-algorithms",
             "http-and-https",
             "uml",
