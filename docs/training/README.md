@@ -1,4 +1,5 @@
 # 新人培训计划
+
 <!-- TOC -->
 
 - [第 1 周：开发基础](#第1周：开发基础)
@@ -17,6 +18,11 @@
   - [结果输出](#结果输出)
   - [扩展学习](#扩展学习)
 - [第 4 周：状态管理](#第4周：状态管理)
+  - [技能点](#技能点)
+  - [学习材料](#学习材料)
+  - [结果输出](#结果输出)
+  - [扩展学习](#扩展学习)
+- [第 5 周：设计基础](#第5周：设计基础)
   - [技能点](#技能点)
   - [学习材料](#学习材料)
   - [结果输出](#结果输出)
@@ -134,7 +140,7 @@
     - [熟悉 CSS 字体](http://www.w3school.com.cn/css/css_font.asp)
     - [熟悉 CSS 轮廓](http://www.w3school.com.cn/css/css_outline.asp)
   - [熟悉浏览器前缀](http://book.51cto.com/art/201203/323008.htm)
-  - [熟悉CSS常用布局](https://segmentfault.com/a/1190000008789039#articleHeader1)
+  - [熟悉 CSS 常用布局](https://segmentfault.com/a/1190000008789039#articleHeader1)
 
 ### 学习材料
 
@@ -218,7 +224,7 @@
 
 ### 学习材料
 
-- [JavaScript秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/#intro)
+- [JavaScript 秘密花园](http://bonsaiden.github.io/JavaScript-Garden/zh/#intro)
 - [Chrome 开发者工具](https://developers.google.com/web/tools/chrome-devtools/)
 
 ### 结果输出
@@ -245,13 +251,12 @@
 ### 技能点
 
 - [熟悉 Node/NPM 基础](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html?utm_source=tuicool&utm_medium=referral)
-<<<<<<< HEAD:docs/curated-tutorial/trainee-learn-plan.md
-- 熟悉 React
-=======
+  <<<<<<< HEAD:docs/curated-tutorial/trainee-learn-plan.md
+- # 熟悉 React
 - 熟悉 ES6 基础
   - [ES6 常用的特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
-- 熟悉 React 
->>>>>>> 11ac80255c9e6ba7b419935e8a403d6b104adc29:docs/training/README.md
+- 熟悉 React
+  > > > > > > > 11ac80255c9e6ba7b419935e8a403d6b104adc29:docs/training/README.md
   - [熟悉 React JSX](http://www.runoob.com/react/react-jsx.html)
   - [熟悉 React 组件](http://www.runoob.com/react/react-components.html)
   - [熟悉 React State](http://www.runoob.com/react/react-state.html)
