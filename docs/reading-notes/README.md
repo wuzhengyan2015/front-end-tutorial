@@ -19,3 +19,4 @@
 ## 高效前端：Web高效编程与优化实践
 + [whole book -- wzy](http://note.youdao.com/noteshare?id=45bbb8d2d77c84659c9db630bb42c51b)
 + [async/await 是把双刃剑 -- hy](http://note.youdao.com/noteshare?id=a3cb5eec2a633a3e3b0428e60633fae9)
++ [js与多线程](https://juejin.im/post/5a221d35f265da43356291cc)
