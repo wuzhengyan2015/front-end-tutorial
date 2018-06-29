@@ -4,6 +4,8 @@
 * [深入浅出Javascript事件循环机制(上)](https://zhuanlan.zhihu.com/p/26229293)
 * [深入理解javascript原型和闭包（完结）](https://www.cnblogs.com/wangfupeng1988/p/3977924.html)
 * [异步编程那些事（深入）](https://zhuanlan.zhihu.com/p/28315360)
+* [js与多线程](https://juejin.im/post/5a221d35f265da43356291cc)
+* [从浏览器多进程到JS单线程，JS运行机制最全面的一次梳理](https://juejin.im/entry/5ab48d3af265da23766b375a)
 
 ### JS设计模式
 * [设计模式六大原则](http://www.uml.org.cn/sjms/201211023.asp#1)
