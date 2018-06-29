@@ -1,4 +1,4 @@
-## CSS 基础
+## 02-CSS基础
 
 ### 基础知识
 
@@ -17,12 +17,6 @@
 - [Sprite与Base64](https://www.cnblogs.com/Ry-yuan/p/7392492.html)
 
 - [iconfont](http://www.iconfont.cn/)
-
-### CSS 编码规范
-
-- [声明顺序](https://www.cnblogs.com/MasterYao/p/5581274.html)
-
-- [编码规范](https://www.cnblogs.com/y-lin/p/5753302.html)
 
 ### 推荐书籍
 

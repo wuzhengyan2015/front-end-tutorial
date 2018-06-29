@@ -1,15 +1,16 @@
 {
   "scripts": {
-    "predeploy": "yarn docs:build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d docs/.vuepress/dist",
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "devDependencies": {
     "vuepress": "^0.10.0"
   },
   "dependencies": {
-    "gh-pages": "^1.2.0"
+    "gh-pages": "^1.2.0",
+    "vue-directive-image-previewer": "^1.1.2"
   },
   "homepage": "https://hellohy.github.io/enduring-heart"
 }

@@ -1,34 +1,38 @@
 module.exports = {
-  base: '/front-end-tutorial/',
-  title: 'Web前端基础学习路线',
-  description: '按阶段学习并提升前端技能',
+  base: "/front-end-tutorial/",
+  title: "Web前端基础学习路线",
+  description: "按阶段学习并提升前端技能",
   markdown: {
     toc: {
       includeLevel: [2, 3, 4, 5, 6]
     }
   },
   themeConfig: {
-    repo: 'wuzhengyan2015/front-end-tutorial',
-    docsDir: 'docs',
+    repo: "wuzhengyan2015/front-end-tutorial",
+    docsDir: "docs",
     editLinks: true,
-    editLinkText: '帮助我们改善此页面！',
+    editLinkText: "帮助我们改善此页面！",
     sidebarDepth: 2,
     nav: [
       {
-        text: '学习材料',
-        link: '/curated-tutorial/',
+        text: "学习材料",
+        link: "/curated-tutorial/"
       },
       {
-        text: '分享会',
-        link: '/share/'
+        text: "分享会",
+        link: "/share/"
       },
       {
-        text: '翻译',
-        link: '/translation/'
+        text: "翻译",
+        link: "/translation/"
       },
       {
-        text: '读书笔记',
-        link: '/reading-notes/'
+        text: "读书笔记",
+        link: "/reading-notes/"
+      },
+      {
+        text: "培训计划",
+        link: "/training/"
       }
       // {
       //   text: '关于',
@@ -36,46 +40,54 @@ module.exports = {
       // }
     ],
     sidebar: {
-      '/curated-tutorial/': [
+      "/curated-tutorial/": [
         {
-          title: '学习材料(持续更新...)',
+          title: "学习材料(持续更新...)",
           children: [
-            '',
-            'front-end-roadmap',
-            'basic-css',
-            'basic-html',
-            'basic-javascript',
-            'advanced-css',
-            'advanced-javascript',
-            'expanded-javascript'
+            "",
+            "front-end-roadmap",
+            "basic-html",
+            "basic-css",
+            "basic-javascript",
+            "advanced-css",
+            "advanced-javascript",
+            "expanded-javascript",
+            "data-structures-and-algorithms",
+            "http-and-https",
+            "uml",
+            "web-security",
+            'perf',
+            'browser'
           ]
         }
       ],
-      '/share/': [
+      "/share/": [
         {
-          title: '分享会',
+          title: "分享会",
+          children: ["es6-practical-skills"]
+        }
+      ],
+      "/translation/": [
+        {
+          title: "翻译",
           children: [
-            'es6-practical-skills',
+            "brief-javascript-roadmap.md",
+            "commonly-used-ES6-features"
           ]
         }
       ],
-      '/translation/': [
+      "/reading-notes/": [
         {
-          title: '翻译',
-          children: [
-            'brief-javascript-roadmap.md',
-            'commonly-used-ES6-features'
-          ]
+          title: "读书笔记",
+          children: [""]
         }
       ],
-      '/reading-notes/': [
+      "/training/": [
         {
-          title: '读书笔记',
-          children: [
-            ''
-          ]
+          title: "培训计划",
+          children: [""]
         }
       ]
     }
   }
-}
+};
