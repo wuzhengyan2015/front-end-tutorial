@@ -1,25 +1,26 @@
 <!-- TOC -->
-* [第 1 周：开发基础](#第1周：开发基础)
-  * [技能点](#技能点)
-  * [学习材料](#学习材料)
-  * [结果输出](#结果输出)
-  * [扩展学习](#扩展学习)
-* [第 2 周：JS 语言](#第2周：JS语言)
-  * [技能点](#技能点)
-  * [学习材料](#学习材料)
-  * [结果输出](#结果输出)
-  * [扩展学习](#扩展学习)
-* [第 3 周：UI 开发](#第3周：UI开发)
-  * [技能点](#技能点)
-  * [学习材料](#学习材料)
-  * [结果输出](#结果输出)
-  * [扩展学习](#扩展学习)
-* [第 4 周：状态管理](#第4周：状态管理)
-  * [技能点](#技能点)
-  * [学习材料](#学习材料)
-  * [结果输出](#结果输出)
-  * [扩展学习](#扩展学习)
-<!-- /TOC -->
+
+- [第 1 周：开发基础](#第1周：开发基础)
+  - [技能点](#技能点)
+  - [学习材料](#学习材料)
+  - [结果输出](#结果输出)
+  - [扩展学习](#扩展学习)
+- [第 2 周：JS 语言](#第2周：JS语言)
+  - [技能点](#技能点)
+  - [学习材料](#学习材料)
+  - [结果输出](#结果输出)
+  - [扩展学习](#扩展学习)
+- [第 3 周：UI 开发](#第3周：UI开发)
+  - [技能点](#技能点)
+  - [学习材料](#学习材料)
+  - [结果输出](#结果输出)
+  - [扩展学习](#扩展学习)
+- [第 4 周：状态管理](#第4周：状态管理)
+  - [技能点](#技能点)
+  - [学习材料](#学习材料)
+  - [结果输出](#结果输出)
+  - [扩展学习](#扩展学习)
+    <!-- /TOC -->
 
 # 实训生学习计划（2018）
 
@@ -126,7 +127,7 @@
     - [熟悉相对定位](http://www.w3school.com.cn/css/css_positioning_relative.asp)
     - [熟悉绝对定位](http://www.w3school.com.cn/css/css_positioning_absolute.asp)
     - [熟悉浮动](http://www.w3school.com.cn/css/css_positioning_floating.asp)
-  - 熟悉常用css样式的表现
+  - 熟悉常用 css 样式的表现
     - [熟悉 CSS 背景](http://www.w3school.com.cn/css/css_background.asp)
     - [熟悉 CSS 文本](http://www.w3school.com.cn/css/css_text.asp)
     - [熟悉 CSS 字体](http://www.w3school.com.cn/css/css_font.asp)
@@ -241,7 +242,7 @@
 ### 技能点
 
 - [熟悉 Node/NPM 基础](http://www.ruanyifeng.com/blog/2016/10/npm_scripts.html?utm_source=tuicool&utm_medium=referral)
-- 熟悉 React 
+- 熟悉 React
   - [熟悉 React JSX](http://www.runoob.com/react/react-jsx.html)
   - [熟悉 React 组件](http://www.runoob.com/react/react-components.html)
   - [熟悉 React State](http://www.runoob.com/react/react-state.html)
@@ -286,7 +287,7 @@
 - [熟悉 HTTP 协议](http://www.ruanyifeng.com/blog/2016/08/http.html)
   - [GET/POST/PUT/DELETE/PATCH/OPTION](https://www.cnblogs.com/liangxiaofeng/p/5798607.html)
   - [常见状态码：200/40x/50x](http://tool.oschina.net/commons?type=5)
-- 熟悉AJAX
+- 熟悉 AJAX
   - [AJAX 简介](http://www.runoob.com/ajax/ajax-intro.html)
   - [AJAX 实例](http://www.runoob.com/ajax/ajax-example.html)
   - [XHR 创建对象](http://www.runoob.com/ajax/ajax-xmlhttprequest-create.html)
@@ -294,6 +295,7 @@
   - [XHR 响应](http://www.runoob.com/ajax/ajax-xmlhttprequest-response.html)
   - [XHR 状态值](http://www.runoob.com/ajax/ajax-xmlhttprequest-onreadystatechange.html)
 - Redux
+
   - [熟悉 Action](http://www.redux.org.cn/docs/basics/Actions.html)
   - [熟悉 Reducer](http://www.redux.org.cn/docs/basics/Reducers.html)
   - [熟悉 Store](http://www.redux.org.cn/docs/basics/Store.html)
@@ -302,7 +304,7 @@
 
 - React 脚手架
   - [熟悉 axios](https://blog.ygxdxx.com/2017/02/27/Axios-Strategy/?utm_source=tuicool&utm_medium=referral)
-  - [熟悉 PostCSS 的使用](http://www.open-open.com/lib/view/open1455411053120.html) 
+  - [熟悉 PostCSS 的使用](http://www.open-open.com/lib/view/open1455411053120.html)
   - [CSS Modules](http://acgtofe.com/posts/2016/04/css-modules-made-simple)
 - 熟悉前后端分离开发
   - [熟悉使用 Mock](https://github.com/nuysoft/Mock/wiki)
@@ -331,7 +333,38 @@
 - [虚拟 DOM 介绍](https://github.com/livoras/blog/issues/13)
 - [Flux](http://www.ruanyifeng.com/blog/2016/01/flux.html)
 
-# 参考资料
+## 第 5 周：设计基础
+
+> 能够看懂、了解一些设计基础，能够按照设计实现编码
+
+### 技能点
+
+- [UML 概述](https://www.w3cschool.cn/uml_tutorial/uml_tutorial-19ew28y7.html)
+- [用例图](http://www.uml.org.cn/oobject/201209132.asp)
+- [类图](http://www.uml.org.cn/oobject/201610282.asp)
+- [对象图](http://www.uml.org.cn/oobject/200801071.asp)
+- [状态图](http://www.uml.org.cn/oobject/201012234.asp)
+- [活动图](http://www.uml.org.cn/oobject/201409092.asp)
+- [协作图](http://www.uml.org.cn/oobject/201409242.asp)
+- [时序图](http://www.uml.org.cn/oobject/201009081.asp)
+- [组件图](http://www.uml.org.cn/oobject/200904023.asp)
+
+### 学习材料
+
+[UML 教程](https://www.w3cschool.cn/uml_tutorial/)
+
+### 结果输出
+
+### 扩展学习
+
+- [设计模式学习](http://www.runoob.com/design-pattern/design-pattern-tutorial.html)
+
+### 参考资料
+
+- [EA 使用教程](https://www.cnblogs.com/xinyu1020/articles/1866227.html)
+- [火龙果](http://www.uml.org.cn)
+
+# web 前端参考资料
 
 - [技能环](https://phodal.github.io/skillwheel/)
 - [MDN Web 技术文档](https://developer.mozilla.org/zh-CN/docs/Web)
