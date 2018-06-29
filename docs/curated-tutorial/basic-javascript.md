@@ -17,6 +17,7 @@
 
 #### React
 * [React中文文档](https://doc.react-china.org/)
+* [react.js 小书](http://huziketang.mangojuice.top/books/react/)
 
 #### Vue
 * [Vue指南](https://vuefe.cn/v2/guide/)
