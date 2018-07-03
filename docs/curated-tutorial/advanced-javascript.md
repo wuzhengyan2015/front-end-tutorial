@@ -13,6 +13,10 @@
 ### 深入学习ES6
 * [深入 Promise](https://zhuanlan.zhihu.com/p/25178630)
 
+### 框架技术栈
+* [Redux 入门教程](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
+* [react-router](https://reacttraining.com/react-router/web/guides/philosophy)
+
 ### 理解框架的设计原理和实现
 * [React 设计中的闪光点](https://zhuanlan.zhihu.com/p/28562066)
 * [Vue2 原理浅谈](https://juejin.im/post/59f2845e6fb9a0451a759e85#heading-2)
