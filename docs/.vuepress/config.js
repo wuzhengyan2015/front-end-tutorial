@@ -88,7 +88,7 @@ module.exports = {
       ],
       "/training/": [
         {
-          title: "培训计划",
+          title: "新人学习计划",
           children: [""]
         }
       ]
