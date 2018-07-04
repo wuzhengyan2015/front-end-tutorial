@@ -15,7 +15,8 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       {
-        text: "学习材料",
+        text: "学习路径",
+        isHot: true,
         link: "/curated-tutorial/"
       },
       {
@@ -31,7 +32,8 @@ module.exports = {
         link: "/reading-notes/"
       },
       {
-        text: "培训计划",
+        text: "新人学习计划",
+        isHot: true,
         link: "/training/"
       }
       // {
