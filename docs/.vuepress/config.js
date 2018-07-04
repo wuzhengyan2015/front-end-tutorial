@@ -44,7 +44,7 @@ module.exports = {
     sidebar: {
       "/curated-tutorial/": [
         {
-          title: "学习材料(持续更新...)",
+          title: "学习路径(持续更新...)",
           children: [
             "",
             "front-end-roadmap",

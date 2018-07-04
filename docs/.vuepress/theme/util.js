@@ -3,6 +3,11 @@ export const extRE = /\.(md|html)$/
 export const endingSlashRE = /\/$/
 export const outboundRE = /^(https?:|mailto:|tel:)/
 
+import Vue from 'vue'
+import Hot from './Hot.vue'
+
+Vue.component('Hot', Hot)
+
 export function normalize (path) {
   return path
     .replace(hashRE, '')
