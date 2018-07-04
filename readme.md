@@ -13,3 +13,7 @@ yarn install
 yarn dev // 开发
 
 yarn deploy //部署
+
+修改主题文件:
+
+docs/.vuepress/theme
