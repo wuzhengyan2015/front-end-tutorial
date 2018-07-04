@@ -13,6 +13,18 @@
 ### 深入学习ES6
 * [深入 Promise](https://zhuanlan.zhihu.com/p/25178630)
 
+### 框架的使用
+
+#### React
+* [React中文文档](https://doc.react-china.org/)
+* [react.js 小书](http://huziketang.mangojuice.top/books/react/)
+
+#### Vue
+* [Vue指南](https://vuefe.cn/v2/guide/)
+
+#### Angular
+* [Angular中文文档](https://www.angular.cn/docs)
+
 ### 框架技术栈
 * [Redux 入门教程](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
 * [react-router](https://reacttraining.com/react-router/web/guides/philosophy)
@@ -25,6 +37,7 @@
 * [给你的JS代码添加单元测试](https://juejin.im/post/57e4e609bf22ec00585c7f00)
 
 ### 书籍推荐
+* React学习之路
 * JavaScript语言精粹
 * 你不知道的JavaScript
 * JavaScript设计模式

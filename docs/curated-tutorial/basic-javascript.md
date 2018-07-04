@@ -13,23 +13,10 @@
 ### ES6常用特性
 * [前端开发者不得不知的ES6十大特性](http://www.alloyteam.com/2016/03/es6-front-end-developers-will-have-to-know-the-top-ten-properties/)
 
-### 框架的使用
-
-#### React
-* [React中文文档](https://doc.react-china.org/)
-* [react.js 小书](http://huziketang.mangojuice.top/books/react/)
-
-#### Vue
-* [Vue指南](https://vuefe.cn/v2/guide/)
-
-#### Angular
-* [Angular中文文档](https://www.angular.cn/docs)
-
 ### 书籍推荐
 * JavaScript DOM编程艺术
 * [Eloquent Javascript](http://eloquentjavascript.net/) [en]
 * JavaScript权威指南
 * [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
-* React学习之路
 
 
