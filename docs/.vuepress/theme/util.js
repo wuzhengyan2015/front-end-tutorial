@@ -5,7 +5,9 @@ export const outboundRE = /^(https?:|mailto:|tel:)/
 
 import Vue from 'vue'
 import Hot from './Hot.vue'
+import VueMindmap from 'vue-mindmap'
 
+Vue.use(VueMindmap)
 Vue.component('Hot', Hot)
 
 export function normalize (path) {

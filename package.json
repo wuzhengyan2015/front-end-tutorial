@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "gh-pages": "^1.2.0",
-    "vue-directive-image-previewer": "^1.1.2"
+    "vue-directive-image-previewer": "^1.1.2",
+    "vue-mindmap": "^0.0.4"
   },
   "homepage": "https://hellohy.github.io/enduring-heart"
 }
