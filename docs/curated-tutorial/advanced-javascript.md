@@ -42,3 +42,7 @@
 * 你不知道的JavaScript
 * JavaScript设计模式
 * [ECMAScript 6 入门](http://es6.ruanyifeng.com/)
+
+### Elearning课程
+* [React系列培训--初级课程](http://xuexi.101.com/train/ndu/train/5706838b-9bab-42b2-b2df-204d5eba5d06)
+* [常用数据结构及算法培训系列课程](http://xuexi.101.com/course/ndu/course/6d28b13f-af9c-4c83-b3b8-abbad6bf7f3c)
