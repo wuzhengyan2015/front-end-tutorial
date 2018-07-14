@@ -1,4 +1,4 @@
-## 常用的ES6特性
+# 常用的ES6特性
 
 原文：[Introduction to commonly used ES6 features](https://zellwk.com/blog/es6/)
 
@@ -9,37 +9,37 @@
 ## ES6特性列表
 首先，ES6是对JavaScript的一次巨大更新。如果你好奇有哪些新特性，这里有一个[新特性大列表](https://github.com/lukehoban/es6features)，感谢[Luke Hoban](https://twitter.com/lukehoban?lang=en)整理。
 
-+ Arrows
-+ Classes
-+ Enhanced object literals
-+ Template strings
-+ Destructuring
-+ Default + rest + spread
++ 箭头函数
++ 类
++ 对象字面量提升
++ 模板字符串
++ 解构
++ 默认参数 + 剩余语法 + 扩展运算
 + Let + const
-+ Iterators + for..of
++ Iterators（遍历器） + for..of
 + Generators
 + Unicode
-+ Modules
-+ Module loaders
++ 模块
++ 模块加载
 + Map + set + weakmap + weakset
 + Proxies
 + Symbols
-+ Subclassable built-ins
++ 内置对象可继承
 + Promises
 + Math + number + string + array + object apis
-+ Binary and octal literals
++ 二进制和八进制字面量
 + Reflect api
-+ Tail calls
++ 尾调用
 
 不要让这一大堆功能吓跑你，让你远离ES6。你不需要马上懂得全部内容。接下来，我将与你分享我日常中使用的8个特性。它们是：
 
 1. [Let and const](#let-and-const)
-2. [Arrow functions](#arrow-functions)
-3. [Default parameters](#default-parameters)
-4. [Destructuring](#destructuring)
-5. [Rest parameter and spread operator](#rest-parameter-and-spread-operator)
-6. [Enhanced object literals](#enhanced-object-literals)
-7. [Template literals](#template-literals)
+2. [箭头函数](#箭头函数)
+3. [默认参数](#默认参数)
+4. [解构](#解构)
+5. [剩余参数和扩展运算](#剩余参数和扩展运算)
+6. [对象字面量提升](#对象字面量提升)
+7. [模板字符串](#模板字符串)
 8. [Promises](https://zellwk.com/blog/js-promises)
 
 我们将在下面的章节中介绍八个特性。现在，我将介绍前五个特性。 其余的内容我会在接下来的几个星期里加入。
@@ -219,7 +219,7 @@ const modalLauncher = document.querySelector('.jsModalLauncher')
 
 接下来，我们继续讨论箭头函数。
 
-## Arrow functions
+## 箭头函数
 
 箭头函数由箭头（=>）表示，在ES6代码中随处可见。它是匿名函数的简写方式。它们可以用在任何有关键字``function``的地方。例如：
 
@@ -487,7 +487,7 @@ let moreThan20 = array.filter(num => num > 20)
 
 让我们继续。
 
-## Default parameters
+## 默认参数
 
 默认参数在ES6中@#$%^&*()_+...，好吧，就是当我们定义函数时，允许我们指定参数默认值。让我们看个例子，你就知道它真的很有用。
 
@@ -568,7 +568,7 @@ announcePlayer('Zell', 'Liew', undefined)
 
 这就是你需要了解的默认参数。 这很简单，非常有用:)
 
-## Destructuring
+## 解构
 
 解构是一种能**便捷地从数组和对象中取值的方式**。数组解构和对象解构存在一些细微的差别，所以让我们分别讨论它们。
 
@@ -761,7 +761,7 @@ console.log(b) // 2
 
 接下里，让我们讨论下解构对象和数组在函数中运用。
 
-### 在声明函数时使用解构对象和数组
+#### 在声明函数时使用解构对象和数组
 
 解构最棒的地方就是你可以在任何地方使用它。正如字面意思，你甚至可以在函数中使用解构对象和数组。
 
@@ -822,11 +822,11 @@ sayMyName({firstName: 'Vincy', lastName: 'Zhang'}) // Vincy Zhang
 
 将解构和默认参数结合在一起相当酷，我喜欢。
 
-接下里，让我们看下剩余和展开操作。
+接下里，让我们看下剩余和扩展运算。
 
-## Rest parameter and spread operator
+## 剩余参数和扩展运算
 
-剩余参数和展开操作符看起来很像。它们都是使用三个点（``...``）。
+剩余参数和扩展运算符看起来很像。它们都是使用三个点（``...``）。
 
 它们的不同点取决它们被用来做什么。这就是它们命名不一样的原因。那么，让我们分别看一下剩余参数和扩展操作符。
 
@@ -903,11 +903,11 @@ console.log(restOfScores) // [90, 97, 95]
 
 如果你还是有一些疑惑，你只要记住这点：**剩余参数会把所有东西打包进一个数组**。它出现在函数参数和解构数组中。
 
-接着，我们继续来看展开操作。
+接着，我们继续来看扩展运算。
 
-#### 展开操作符
+#### 扩展运算符
 
-展开操作符和剩余参数行为上正好是相反的。简单地说，它接受一个数组并将它(如jam)传到一个逗号分隔的参数列表中。
+扩展运算符和剩余参数行为上正好是相反的。简单地说，它接受一个数组并将它(如jam)传到一个逗号分隔的参数列表中。
 
 ```js
 let array = ['one', 'two', 'three']
@@ -917,7 +917,7 @@ console.log(...array) // one two three
 console.log('one', 'two', 'three') // one two three
 ```
 
-展开操作符经常用于连接数组，这种形式比较容易阅读和理解。
+扩展运算符经常用于连接数组，这种形式比较容易阅读和理解。
 
 例如，你想把下面的数组组合在一起：
 
@@ -935,7 +935,7 @@ let combinedArray = array1.concat(array2).concat(array3)
 console.log(combinedArray) // ['one', 'two', 'three', 'four', 'five', 'six']
 ```
 
-ES6有了展开操作符，你可以把这些数组全部展开到一个新数组中，只要习惯了这样方式更容易阅读。
+ES6有了扩展运算符，你可以把这些数组全部展开到一个新数组中，只要习惯了这样方式更容易阅读。
 
 ```js
 // ES6 way
@@ -943,11 +943,11 @@ let combinedArray = [...array1, ...array2, ...array3]
 console.log(combinedArray) // ['one', 'two', 'three', 'four', 'five', 'six']
 ```
 
-展开操作符也可以用来在不改变原数组的情况从数组中删除值。这里常用在Redux中。如果你感兴趣的话，强烈推荐你看[Dan Abramove的视频](https://egghead.io/lessons/react-redux-avoiding-array-mutations-with-concat-slice-and-spread)
+扩展运算符也可以用来在不改变原数组的情况从数组中删除值。这里常用在Redux中。如果你感兴趣的话，强烈推荐你看[Dan Abramove的视频](https://egghead.io/lessons/react-redux-avoiding-array-mutations-with-concat-slice-and-spread)
 
-这就是展开操作符的全部内容了。
+这就是扩展运算符的全部内容了。
 
-## Enhanced object literals
+## 对象字面量提升
 
 从你开始写JavaScript开始，Objects应该对你来说应该是相对的熟悉。以防你不了解它们，它们看起来是这样的:
 
@@ -1097,7 +1097,7 @@ const anObject = {
 
 让我们继续看另外一个我超喜欢的很棒的特性：模板字符串
 
-## Template literals
+## 模板字符串
 
 在JavaScript中处理字符串是非常笨拙的。当我们之前在默认参数章节创建``announcePlayer``函数时，你可能自己已经体会到了。那里，我们创建空字符串，来把它们连接在一起。
 

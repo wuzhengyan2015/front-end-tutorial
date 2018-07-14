@@ -75,8 +75,8 @@ module.exports = {
         {
           title: "翻译",
           children: [
-            "brief-javascript-roadmap.md",
-            "commonly-used-ES6-features"
+            "commonly-used-ES6-features",
+            "react-binding-patterns"
           ]
         }
       ],
