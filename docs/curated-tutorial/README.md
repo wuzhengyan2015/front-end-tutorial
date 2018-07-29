@@ -4,7 +4,9 @@ Front-end-tutorial 是一份为即将选择和已经选择前端作为职业的�
 
 ## 学习路线图
 
-![roadmap](/front-end-tutorial/roadmap-2.png)
+[在线预览](https://www.processon.com/view/link/5b55ba3ae4b053a09c11ec6a)
+
+![roadmap](/front-end-tutorial/roadmap-pro.jpg)
 <!-- <ImagePreview src="/roadmap-2.png" /> -->
 
 ## 详细知识点

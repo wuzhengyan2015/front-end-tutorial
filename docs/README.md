@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /roadmap-2.png
+heroImage: /roadmap-pro.jpg
 actionText: 开始阅读 
 actionLink: /curated-tutorial/
 features:
