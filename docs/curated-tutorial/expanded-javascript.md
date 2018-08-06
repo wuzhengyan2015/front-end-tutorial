@@ -1,5 +1,8 @@
 ## 06-JavaScript拓展
 
+### 单元测试
+* [给你的JS代码添加单元测试](https://juejin.im/post/57e4e609bf22ec00585c7f00)
+
 ### 函数式编程
 * [函数式编程术语](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
 * [轻量级 JS 函数式编程](https://github.com/getify/Functional-Light-JS) [en-book]

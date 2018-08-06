@@ -33,9 +33,6 @@
 * [React 设计中的闪光点](https://zhuanlan.zhihu.com/p/28562066)
 * [Vue2 原理浅谈](https://juejin.im/post/59f2845e6fb9a0451a759e85#heading-2)
 
-### 单元测试
-* [给你的JS代码添加单元测试](https://juejin.im/post/57e4e609bf22ec00585c7f00)
-
 ### 书籍推荐
 * React学习之路
 * JavaScript语言精粹
