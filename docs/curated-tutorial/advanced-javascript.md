@@ -18,6 +18,7 @@
 #### React
 * [React中文文档](https://doc.react-china.org/)
 * [react.js 小书](http://huziketang.mangojuice.top/books/react/)
+* React设计模式: [复合组件](http://imweb.io/topic/5b3f03f44d378e703a4f4456), [Context API](http://imweb.io/topic/5b4088914d378e703a4f445e), [Render Props](http://imweb.io/topic/5b46e85e16519c67408b06a3)
 
 #### Vue
 * [Vue指南](https://vuefe.cn/v2/guide/)
@@ -28,6 +29,8 @@
 ### 框架技术栈
 * [Redux 入门教程](http://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html)
 * [react-router](https://reacttraining.com/react-router/web/guides/philosophy)
+* [[译] 关于 React Router 4 的一切](https://juejin.im/post/5995a2506fb9a0249975a1a4)
+* [React Router 4.x 开发，这些雷区我们都帮你踩过了](https://jdc.jd.com/archives/212552#post_comment)
 
 ### 理解框架的设计原理和实现
 * [React 设计中的闪光点](https://zhuanlan.zhihu.com/p/28562066)
