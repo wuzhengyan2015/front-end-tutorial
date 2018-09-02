@@ -6,19 +6,21 @@
 
 - [CSS基础篇、绝对有你想要](https://www.cnblogs.com/suoning/p/5625582.html)
 
+- [CSS 动画](https://segmentfault.com/a/1190000006699023)
+
 ### CSS 布局
 
 - [常用布局教程](http://zh.learnlayout.com/)
 
+- [CSS布局十八般武艺都在这里了](https://segmentfault.com/a/1190000008789039#articleHeader1)
+
+- [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+
 - [CSS Grid 入门](https://zhuanlan.zhihu.com/p/26757425)
 
-- [Grid GARDEN - 游戏化学习](http://cssgridgarden.com/#zh-cn)
-
-### CSS 图片优化
-
-- [Sprite与Base64](https://www.cnblogs.com/Ry-yuan/p/7392492.html)
-
-- [iconfont](http://www.iconfont.cn/)
+- 游戏化学习
+  - [Grid GARDEN](http://cssgridgarden.com/#zh-cn)
+  - [FLEXBOX FROGGY](http://flexboxfroggy.com/#zh-cn)
 
 ### 推荐书籍
 
