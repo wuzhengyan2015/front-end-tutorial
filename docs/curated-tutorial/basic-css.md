@@ -1,6 +1,6 @@
 ## 02-CSS基础
 
-### 基础知识
+### 基础知识(引入方法、选择器、常用属性、基础动画...)
 
 - [MDN CSS 指南](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/CSS%E5%9F%BA%E7%A1%80)
 
