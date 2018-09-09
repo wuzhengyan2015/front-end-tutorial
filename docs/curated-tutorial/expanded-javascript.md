@@ -1,13 +1,16 @@
 ## 06-JavaScript拓展
 
 ### 单元测试
+
 * [给你的JS代码添加单元测试](https://juejin.im/post/57e4e609bf22ec00585c7f00)
 
 ### 函数式编程
+
 * [函数式编程术语](https://github.com/hemanth/functional-programming-jargon#functional-programming-jargon)
 * [轻量级 JS 函数式编程](https://github.com/getify/Functional-Light-JS) [en-book]
 
 ### PWA和Service Worker
+
 * [关于渐进式 Web 应用，你应该知道的一切](https://www.zcfy.cc/article/everything-you-should-know-about-progressive-web-apps-tutorialzine-2047.html)
 * [使用 Service Worker 做一个 PWA 离线网页应用](http://web.jobbole.com/92659/?utm_source=blog.jobbole.com&utm_medium=relatedPosts)
 
