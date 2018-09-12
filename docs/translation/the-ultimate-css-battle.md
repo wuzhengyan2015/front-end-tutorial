@@ -1,8 +1,8 @@
-![image](./images/the-ultimate-css-battle-cover.png)
-
 # CSS终极之战：Grid VS Flexbox
 
 [原文](https://hackernoon.com/the-ultimate-css-battle-grid-vs-flexbox-d40da0449faf)
+
+![image](./images/the-ultimate-css-battle-cover.png)
 
 *学习它们之间的不同，以及何时你应该使用另外一种。*
 
