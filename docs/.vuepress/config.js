@@ -60,6 +60,7 @@ module.exports = {
             "data-structures-and-algorithms",
             "http-and-https",
             "uml",
+            "packageManager",
             "web-security",
             'perf',
             'browser'
