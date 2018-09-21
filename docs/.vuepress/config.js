@@ -78,7 +78,8 @@ module.exports = {
           title: "翻译",
           children: [
             "commonly-used-ES6-features",
-            "react-binding-patterns"
+            "react-binding-patterns",
+            "the-ultimate-css-battle"
           ]
         }
       ],
