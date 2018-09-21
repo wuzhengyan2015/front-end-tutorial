@@ -1,6 +1,6 @@
 ## Web浏览器
 
-### DevTools进阶：
+### DevTools使用：
 
 * [Chrome 开发者工具（又名 DevTools）](https://developers.google.com/web/tools/?hl=en)
   * [Per-Panel 文档](https://developers.google.com/web/tools/chrome-devtools/#docs)
