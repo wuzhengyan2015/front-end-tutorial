@@ -24,3 +24,6 @@
 * [2018 前端性能清单[PDF，Apple Pages]](https://www.smashingmagazine.com/2018/01/front-end-performance-checklist-2018-pdf-pages/) [文章]
 * [页面速度规则见解](https://developers.google.com/speed/docs/insights/rules) [文章]
 * [JavaScript 性能的基石](http://javascriptrocks.com/) [文章][收费]
+
+### 网龙前端课堂
+* [前端性能优化兴趣课程](http://wiki.sdp.nd/index.php?title=%E5%89%8D%E7%AB%AF%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E5%85%B4%E8%B6%A3%E8%AF%BE%E7%A8%8B)
