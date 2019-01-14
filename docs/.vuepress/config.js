@@ -54,6 +54,7 @@ module.exports = {
             "advanced-css",
             "advanced-javascript",
             "expanded-javascript",
+            "page-refractor",
             "code-style",
             "git",
             "buildTool",

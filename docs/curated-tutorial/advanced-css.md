@@ -20,8 +20,6 @@
 ### 浏览器兼容
 
 - [浏览器兼容性问题解决方案 · 总结](https://juejin.im/post/59a3f2fe6fb9a0249471cbb4)
-- [各主流浏览器之间的兼容性-CSS篇](https://www.cnblogs.com/qq313462961/p/6086826.html)
-- [各主流浏览器之间的兼容性-JS篇](https://www.cnblogs.com/qq313462961/p/6527184.html)
 
 
 ### CSS 框架
